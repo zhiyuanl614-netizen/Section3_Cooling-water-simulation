@@ -1,0 +1,4 @@
+scenario_id,n_faulted,fault_pattern,faulted_units,cooling_types,source_clusters,unit1_fault_mode,unit1_param,unit1_value,description
+S1_G30,1,single,G30,wet_recirc,A,makeup_basin_interrupt,t_eval_h,,G30 only: external source stops feeding basin; evaluate at basin trip
+S1_G34,1,single,G34,wet_recirc,B,makeup_basin_interrupt,t_eval_h,,G34 only: external source stops feeding basin; evaluate at basin trip
+S1_G38,1,single,G38,wet_recirc,C,makeup_basin_interrupt,t_eval_h,,G38 only: external source stops feeding basin; evaluate at basin trip

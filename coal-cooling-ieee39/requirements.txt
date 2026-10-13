@@ -1,0 +1,5 @@
+# Core skeleton needs only the stdlib.
+# Optional later for IEEE39 OPF / cascade:
+# pandapower>=2.13.0
+# numpy>=1.24
+# scipy>=1.10
