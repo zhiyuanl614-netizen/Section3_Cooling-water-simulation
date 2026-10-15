@@ -1,0 +1,171 @@
+{
+  "n_samples": 384,
+  "outputs": {
+    "initial_p_mw": {
+      "mean": 493.1668214578452,
+      "sd": 5.442685470320758,
+      "p05": 484.1523206401614,
+      "p50": 494.08670974734434,
+      "p95": 500.0,
+      "min": 478.7253328791433,
+      "max": 500.0
+    },
+    "initial_pb_kpa": {
+      "mean": 9.460022212210136,
+      "sd": 1.6230537442949506,
+      "p05": 7.081023834856876,
+      "p50": 9.25185374576133,
+      "p95": 12.090250628067722,
+      "min": 6.261112588255163,
+      "max": 13.101580391567321
+    },
+    "t_derate_start_h": {
+      "mean": 0.6771556712962963,
+      "sd": 1.1413732900373856,
+      "p05": 0.0027777777777777775,
+      "p50": 0.002777777777777778,
+      "p95": 3.0630555555555534,
+      "min": 0.002777777777777778,
+      "max": 3.936111111111111
+    },
+    "t_trip_h": {
+      "mean": 5.083159722222223,
+      "sd": 0.6707182227695591,
+      "p05": 4.144444444444445,
+      "p50": 5.073611111111111,
+      "p95": 6.163749999999999,
+      "min": 0.002777777777777778,
+      "max": 6.763888888888889
+    },
+    "p_at_3h_mw": {
+      "mean": 425.05748383277887,
+      "sd": 61.9931368594003,
+      "p05": 340.9433813895084,
+      "p50": 426.1754405360171,
+      "p95": 497.8681600974428,
+      "min": 0.0,
+      "max": 500.0
+    },
+    "delivered_energy_0_8h_mwh": {
+      "mean": 2096.3568835047827,
+      "sd": 257.7893301518057,
+      "p05": 1729.3072976970425,
+      "p50": 2096.086979253141,
+      "p95": 2493.3836063054396,
+      "min": 0.6921296296296297,
+      "max": 2742.316887591073
+    }
+  },
+  "mechanisms": {
+    "backpressure_protection": {
+      "n": 2,
+      "probability": 0.005208333333333333
+    },
+    "pump_level": {
+      "n": 382,
+      "probability": 0.9947916666666666
+    }
+  },
+  "trip_censored_probability": 0.0,
+  "derate_censored_probability": 0.0,
+  "case_status": "synthetic_reference_template_not_site_calibrated",
+  "parameter_distributions": [
+    {
+      "name": "tower_characteristic_mult",
+      "lower": 0.85,
+      "upper": 1.15,
+      "destination": "model",
+      "unit": "-",
+      "rationale": "tower condition / NTU uncertainty"
+    },
+    {
+      "name": "condenser_cleanliness",
+      "lower": 0.88,
+      "upper": 1.06,
+      "destination": "model",
+      "unit": "-",
+      "rationale": "condenser fouling/cleanliness range"
+    },
+    {
+      "name": "basin_area_m2",
+      "lower": 1360.0,
+      "upper": 1839.9999999999998,
+      "destination": "model",
+      "unit": "m2",
+      "rationale": "±15% synthetic inventory-geometry range"
+    },
+    {
+      "name": "evap_heat_fraction",
+      "lower": 0.74,
+      "upper": 0.9,
+      "destination": "model",
+      "unit": "-",
+      "rationale": "evaporative heat-share range"
+    },
+    {
+      "name": "cycles_of_concentration",
+      "lower": 3.0,
+      "upper": 5.0,
+      "destination": "model",
+      "unit": "-",
+      "rationale": "water-chemistry operating range"
+    },
+    {
+      "name": "pump_npshr_design_m",
+      "lower": 6.0,
+      "upper": 10.0,
+      "destination": "model",
+      "unit": "m",
+      "rationale": "pump-curve uncertainty range"
+    },
+    {
+      "name": "operator_shed_start_level_m",
+      "lower": 1.5,
+      "upper": 2.5,
+      "destination": "model",
+      "unit": "m",
+      "rationale": "SOP action-level scenario range"
+    },
+    {
+      "name": "p_min_tech_frac",
+      "lower": 0.35,
+      "upper": 0.45,
+      "destination": "model",
+      "unit": "-",
+      "rationale": "technical-minimum scenario range"
+    },
+    {
+      "name": "basin_level_trip_m",
+      "lower": 0.9,
+      "upper": 1.1,
+      "destination": "model",
+      "unit": "m",
+      "rationale": "level-switch setting tolerance scenario"
+    },
+    {
+      "name": "pb_trip_kpa",
+      "lower": 12.0,
+      "upper": 20.0,
+      "destination": "model",
+      "unit": "kPa",
+      "rationale": "low-vacuum setting scenario range"
+    },
+    {
+      "name": "twb_op_c",
+      "lower": 18.0,
+      "upper": 30.0,
+      "destination": "dynamics",
+      "unit": "degC",
+      "rationale": "operating wet-bulb scenario range"
+    },
+    {
+      "name": "airflow_ratio",
+      "lower": 0.9,
+      "upper": 1.1,
+      "destination": "dynamics",
+      "unit": "-",
+      "rationale": "tower airflow/fan-state scenario range"
+    }
+  ],
+  "dynamic_step_s": 10.0
+}

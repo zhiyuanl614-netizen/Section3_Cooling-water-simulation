@@ -1,0 +1,11 @@
+gen_id,bus,pmax_mw,pmin_mw,is_slack,fuel,cooling_type,source_cluster,include_cold_end,prototype_ref_mw,role_note
+G30,30,1040,0,0,other,none,NONE,0,,hydro generator per MATPOWER case39 labels; cold-end not modelled in this study
+G31,31,646,0,1,other,none,NONE,0,,slack bus; cold-end not modelled in this study
+G32,32,725,0,0,other,none,NONE,0,,thermal unit; cold-end not modelled in this study
+G33,33,652,0,0,coal,wet_recirc,A,1,500,equivalent wet-recirc coal unit 1 (MATPOWER fossil02 at bus 33); rated at the case Pmax 652 MW; basin makeup from external source A
+G34,34,508,0,0,coal,wet_recirc,B,1,500,equivalent wet-recirc coal unit 2 (MATPOWER fossil01 at bus 34); rated at the case Pmax 508 MW; basin makeup from external source B
+G35,35,687,0,0,other,none,NONE,0,,thermal unit; cold-end not modelled in this study
+G36,36,580,0,0,other,none,NONE,0,,thermal unit; cold-end not modelled in this study
+G37,37,564,0,0,other,none,NONE,0,,thermal unit; cold-end not modelled in this study
+G38,38,865,0,0,other,none,NONE,0,,nuclear generator per MATPOWER case39 labels; cold-end not modelled in this study
+G39,39,1100,0,0,external,none,NONE,0,,external interconnection equivalent; no plant cold-end model

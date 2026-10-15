@@ -1,0 +1,9 @@
+package,band,scenario_id,gen_id,t_trip_h,trip_mechanism,p_avail_at_4p5h_mw,pb_ref_kpa
+baseline,low,S1_G33,G33,4.1002777777777775,pump_level,0.0,7.562
+baseline,base,S1_G33,G33,5.072777777777778,pump_level,325.153,7.562
+baseline,high,S1_G33,G33,6.160833333333334,pump_level,435.991,7.562
+baseline,low,S1_G34,G34,4.1002777777777775,pump_level,0.0,7.562
+baseline,base,S1_G34,G34,5.072777777777778,pump_level,253.34,7.562
+baseline,high,S1_G34,G34,6.160833333333334,pump_level,339.698,7.562
+regional,base,S1_G33,G33,8.78111111111111,pump_level,644.841,10.071
+regional,base,S1_G34,G34,4.954722222222222,pump_level,243.234,11.146

@@ -1,0 +1,332 @@
+<html style="margin:0;padding:0;">
+<title>Results 章节图表集</title>
+<div style="width:100%;max-width:900px;margin:0 auto;padding:20px;font-family:'Times New Roman',serif;">
+
+<!-- ========== Fig. 6: Makeup interruption trajectories ========== -->
+<h3 style="text-align:center;margin-bottom:5px;font-size:15px;">Fig. 6. Delivered-power trajectories under makeup interruption (0–8 h)</h3>
+<svg viewBox="0 0 800 380" style="width:100%;height:auto;border:1px solid #ccc;">
+  <!-- Axes -->
+  <line x1="70" y1="320" x2="760" y2="320" stroke="#333" stroke-width="1.2"/>
+  <line x1="70" y1="40" x2="70" y2="320" stroke="#333" stroke-width="1.2"/>
+  
+  <!-- Y axis label -->
+  <text x="25" y="180" text-anchor="middle" font-size="12" fill="#333" transform="rotate(-90, 25, 180)">Delivered power (MW)</text>
+  
+  <!-- X axis label -->
+  <text x="415" y="360" text-anchor="middle" font-size="12" fill="#333">Time (h)</text>
+  
+  <!-- Y ticks -->
+  <text x="60" y="324" text-anchor="end" font-size="10" fill="#666">0</text>
+  <text x="60" y="254" text-anchor="end" font-size="10" fill="#666">175</text>
+  <text x="60" y="184" text-anchor="end" font-size="10" fill="#666">350</text>
+  <text x="60" y="114" text-anchor="end" font-size="10" fill="#666">525</text>
+  <text x="60" y="44" text-anchor="end" font-size="10" fill="#666">700</text>
+  
+  <!-- X ticks -->
+  <text x="70" y="335" text-anchor="middle" font-size="10" fill="#666">0</text>
+  <text x="156" y="335" text-anchor="middle" font-size="10" fill="#666">1</text>
+  <text x="242" y="335" text-anchor="middle" font-size="10" fill="#666">2</text>
+  <text x="328" y="335" text-anchor="middle" font-size="10" fill="#666">3</text>
+  <text x="414" y="335" text-anchor="middle" font-size="10" fill="#666">4</text>
+  <text x="500" y="335" text-anchor="middle" font-size="10" fill="#666">5</text>
+  <text x="586" y="335" text-anchor="middle" font-size="10" fill="#666">6</text>
+  <text x="672" y="335" text-anchor="middle" font-size="10" fill="#666">7</text>
+  <text x="758" y="335" text-anchor="middle" font-size="10" fill="#666">8</text>
+  
+  <!-- Grid lines (light) -->
+  <line x1="70" y1="250" x2="760" y2="250" stroke="#eee" stroke-width="0.5"/>
+  <line x1="70" y1="180" x2="760" y2="180" stroke="#eee" stroke-width="0.5"/>
+  <line x1="70" y1="110" x2="760" y2="110" stroke="#eee" stroke-width="0.5"/>
+  <line x1="70" y1="40" x2="760" y2="40" stroke="#eee" stroke-width="0.5"/>
+  
+  <!-- Rated 652 MW reference line (primary mapped unit, Bus 33) -->
+  <line x1="70" y1="59.2" x2="760" y2="59.2" stroke="#888" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="755" y="55" text-anchor="end" font-size="9" fill="#888">Rated = 652 MW</text>
+  
+  <!-- S1a: ride-down + isolate blowdown -->
+  <!-- Flat at rated 652MW until ~2.56h, then gradual derate, trip at 5.07h -->
+  <!-- x: 0h=70px, 8h=760px → scale = 690/8 = 86.25 px/h -->
+  <!-- y: 0MW=320, 700MW=40 → scale = -280/700 = -0.40 px/MW -->
+  <path d="M 70,59.2 L 91.6,59.2 L 113.1,59.3 L 134.7,59.3 L 156.2,59.4 L 177.8,59.4 L 199.4,59.5 L 220.9,59.5 L 242.5,59.5 L 264.1,59.6 L 285.6,59.6 L 307.2,76.8 L 328.8,96.9 L 350.3,115.4 L 371.9,132.6 L 393.4,148.6 L 415,163.4 L 436.6,177.2 L 458.1,189.9 L 479.7,201.7 L 501.2,212.7 L 507.5,320.0"
+        stroke="#1f77b4" stroke-width="2.5" fill="none"/>
+  <text x="520" y="150" font-size="10" fill="#1f77b4" font-weight="bold">S1a</text>
+  <text x="520" y="165" font-size="9" fill="#1f77b4">ride-down + isolate</text>
+  <text x="520" y="178" font-size="9" fill="#1f77b4">trip @ 5.07 h</text>
+  
+  <!-- S1b: ride-down + maintain blowdown -->
+  <!-- Trip at 3.88h, earlier derate -->
+  <path d="M 70,59.2 L 91.6,59.2 L 113.1,59.3 L 134.7,59.4 L 156.2,59.4 L 177.8,59.5 L 199.4,59.5 L 220.9,59.6 L 242.5,61.9 L 264.1,89.7 L 285.6,114.8 L 307.2,137.4 L 328.8,157.9 L 350.3,176.5 L 371.9,193.3 L 393.4,208.4 L 404.7,320.0"
+        stroke="#d62728" stroke-width="2.5" fill="none" stroke-dasharray="6,3"/>
+  <text x="120" y="100" font-size="10" fill="#d62728" font-weight="bold">S1b</text>
+  <text x="120" y="113" font-size="9" fill="#d62728">ride-down + maintain</text>
+  <text x="120" y="126" font-size="9" fill="#d62728">trip @ 3.88 h</text>
+  
+  <!-- C1: hold-load + isolate blowdown -->
+  <!-- Trip at 4.29h, flat longer then faster drop -->
+  <path d="M 70,59.2 L 91.6,59.3 L 113.1,59.3 L 134.7,59.3 L 156.2,59.4 L 177.8,59.4 L 199.4,59.5 L 220.9,59.5 L 242.5,59.6 L 264.1,59.6 L 285.6,59.7 L 307.2,59.7 L 328.8,59.8 L 350.3,59.8 L 371.9,59.9 L 393.4,59.9 L 415,60.0 L 436.6,60.0 L 440.4,320.0"
+        stroke="#2ca02c" stroke-width="2.5" fill="none" stroke-dasharray="2,3"/>
+  <text x="445" y="90" font-size="10" fill="#2ca02c" font-weight="bold">C1</text>
+  <text x="445" y="103" font-size="9" fill="#2ca02c">hold-load + isolate</text>
+  <text x="445" y="116" font-size="9" fill="#2ca02c">trip @ 4.29 h</text>
+  
+  <!-- Trip markers -->
+  <circle cx="508" cy="320" r="4" fill="#1f77b4"/>
+  <circle cx="405" cy="320" r="4" fill="#d62728"/>
+  <circle cx="440" cy="320" r="4" fill="#2ca02c"/>
+  
+  <!-- Legend -->
+  <rect x="580" y="200" width="170" height="100" fill="#fafafa" stroke="#ccc" stroke-width="0.8" rx="3"/>
+  <text x="665" y="218" text-anchor="middle" font-size="10" font-weight="bold" fill="#333">Legend</text>
+  <line x1="595" y1="235" x2="625" y2="235" stroke="#1f77b4" stroke-width="2.5"/>
+  <text x="635" y="239" font-size="9" fill="#333">S1a: ride-down + isolate</text>
+  <line x1="595" y1="255" x2="625" y2="255" stroke="#d62728" stroke-width="2.5" stroke-dasharray="6,3"/>
+  <text x="635" y="259" font-size="9" fill="#333">S1b: ride-down + maintain</text>
+  <line x1="595" y1="275" x2="625" y2="275" stroke="#2ca02c" stroke-width="2.5" stroke-dasharray="2,3"/>
+  <text x="635" y="279" font-size="9" fill="#333">C1: hold-load + isolate</text>
+</svg>
+
+<!-- ========== Fig. 7: Pump outage dynamic vs quasi-static ========== -->
+<h3 style="text-align:center;margin-top:30px;margin-bottom:5px;font-size:15px;">Fig. 7. Full circulating-pump outage: dynamic vs quasi-static integration</h3>
+<svg viewBox="0 0 800 320" style="width:100%;height:auto;border:1px solid #ccc;">
+  <!-- Panel (a): backpressure -->
+  <text x="200" y="25" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">(a) Backpressure rise</text>
+  
+  <line x1="60" y1="250" x2="380" y2="250" stroke="#333" stroke-width="1.2"/>
+  <line x1="60" y1="50" x2="60" y2="250" stroke="#333" stroke-width="1.2"/>
+  
+  <text x="20" y="150" text-anchor="middle" font-size="10" fill="#333" transform="rotate(-90, 20, 150)">Backpressure (kPa)</text>
+  <text x="220" y="285" text-anchor="middle" font-size="10" fill="#333">Time (min)</text>
+  
+  <!-- Y ticks -->
+  <text x="55" y="254" text-anchor="end" font-size="9" fill="#666">0</text>
+  <text x="55" y="184" text-anchor="end" font-size="9" fill="#666">5</text>
+  <text x="55" y="114" text-anchor="end" font-size="9" fill="#666">10</text>
+  <text x="55" y="54" text-anchor="end" font-size="9" fill="#666">15</text>
+  
+  <!-- X ticks -->
+  <text x="60" y="265" text-anchor="middle" font-size="9" fill="#666">0</text>
+  <text x="140" y="265" text-anchor="middle" font-size="9" fill="#666">0.2</text>
+  <text x="220" y="265" text-anchor="middle" font-size="9" fill="#666">0.4</text>
+  <text x="300" y="265" text-anchor="middle" font-size="9" fill="#666">0.6</text>
+  
+  <!-- Dynamic S2: gradual rise, trip at 0.47 min -->
+  <!-- x: 0=60px, 0.6min=380px → scale = 320/0.6 = 533 px/min -->
+  <!-- y: 0kPa=250, 15kPa=50 → scale = -200/15 = -13.3 px/kPa -->
+  <path d="M 60,240 L 160,220 L 220,180 L 260,120 L 270,60" 
+        stroke="#1f77b4" stroke-width="2.5" fill="none"/>
+  <circle cx="270" cy="60" r="4" fill="#1f77b4"/>
+  <text x="280" y="55" font-size="9" fill="#1f77b4" font-weight="bold">S2 (dynamic)</text>
+  <text x="280" y="68" font-size="8" fill="#1f77b4">trip @ 0.47 min</text>
+  
+  <!-- Quasi-static S2qs: instant jump, trip at 0.05 min -->
+  <path d="M 60,240 L 86,60" 
+        stroke="#d62728" stroke-width="2.5" fill="none" stroke-dasharray="5,3"/>
+  <circle cx="86" cy="60" r="4" fill="#d62728"/>
+  <text x="95" y="50" font-size="9" fill="#d62728" font-weight="bold">S2qs (quasi-static)</text>
+  <text x="95" y="63" font-size="8" fill="#d62728">trip @ 0.05 min</text>
+  
+  <!-- Vacuum set-point line -->
+  <line x1="60" y1="50" x2="380" y2="50" stroke="#e74c3c" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="375" y="45" text-anchor="end" font-size="8" fill="#e74c3c">15 kPa set-point</text>
+  
+  <!-- Panel (b): delivered power -->
+  <text x="590" y="25" text-anchor="middle" font-size="12" font-weight="bold" fill="#333">(b) Delivered power</text>
+  
+  <line x1="450" y1="250" x2="770" y2="250" stroke="#333" stroke-width="1.2"/>
+  <line x1="450" y1="50" x2="450" y2="250" stroke="#333" stroke-width="1.2"/>
+  
+  <text x="410" y="150" text-anchor="middle" font-size="10" fill="#333" transform="rotate(-90, 410, 150)">Power (MW)</text>
+  <text x="610" y="285" text-anchor="middle" font-size="10" fill="#333">Time (min)</text>
+  
+  <!-- Y ticks -->
+  <text x="445" y="254" text-anchor="end" font-size="9" fill="#666">0</text>
+  <text x="445" y="184" text-anchor="end" font-size="9" fill="#666">200</text>
+  <text x="445" y="114" text-anchor="end" font-size="9" fill="#666">400</text>
+  <text x="445" y="54" text-anchor="end" font-size="9" fill="#666">600</text>
+  
+  <!-- X ticks -->
+  <text x="450" y="265" text-anchor="middle" font-size="9" fill="#666">0</text>
+  <text x="530" y="265" text-anchor="middle" font-size="9" fill="#666">0.2</text>
+  <text x="610" y="265" text-anchor="middle" font-size="9" fill="#666">0.4</text>
+  <text x="690" y="265" text-anchor="middle" font-size="9" fill="#666">0.6</text>
+  
+  <!-- Dynamic S2: gradual decline -->
+  <path d="M 450,60 L 550,80 L 610,120 L 650,180 L 660,250" 
+        stroke="#1f77b4" stroke-width="2.5" fill="none"/>
+  <circle cx="660" cy="250" r="4" fill="#1f77b4"/>
+  
+  <!-- Quasi-static S2qs: instant drop -->
+  <path d="M 450,60 L 476,250" 
+        stroke="#d62728" stroke-width="2.5" fill="none" stroke-dasharray="5,3"/>
+  <circle cx="476" cy="250" r="4" fill="#d62728"/>
+  
+  <text x="580" y="100" font-size="9" fill="#1f77b4" font-weight="bold">Dynamic (S2)</text>
+  <text x="485" y="230" font-size="9" fill="#d62728" font-weight="bold">Quasi-static (S2qs)</text>
+</svg>
+
+<!-- ========== Fig. 8: Sustained derating scenarios ========== -->
+<h3 style="text-align:center;margin-top:30px;margin-bottom:5px;font-size:15px;">Fig. 8. Sustained derating without trip: partial pump loss and wet-bulb stress</h3>
+<svg viewBox="0 0 700 320" style="width:100%;height:auto;border:1px solid #ccc;">
+  <!-- Axes -->
+  <line x1="80" y1="250" x2="650" y2="250" stroke="#333" stroke-width="1.2"/>
+  <line x1="80" y1="50" x2="80" y2="250" stroke="#333" stroke-width="1.2"/>
+  
+  <text x="30" y="150" text-anchor="middle" font-size="11" fill="#333" transform="rotate(-90, 30, 150)">Steady-state power (MW)</text>
+  
+  <!-- Y ticks -->
+  <text x="75" y="254" text-anchor="end" font-size="10" fill="#666">0</text>
+  <text x="75" y="204" text-anchor="end" font-size="10" fill="#666">175</text>
+  <text x="75" y="154" text-anchor="end" font-size="10" fill="#666">350</text>
+  <text x="75" y="104" text-anchor="end" font-size="10" fill="#666">525</text>
+  <text x="75" y="54" text-anchor="end" font-size="10" fill="#666">700</text>
+  
+  <!-- Rated power reference line (primary mapped unit, Bus 33) -->
+  <line x1="80" y1="63.7" x2="650" y2="63.7" stroke="#888" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="645" y="59" text-anchor="end" font-size="9" fill="#888">Rated = 652 MW</text>
+  
+  <!-- Bars (mapped unit Bus 33 basis) -->
+  <!-- S3a: -50% pump → 616 MW -->
+  <!-- y: 0=250, 700MW=50 → scale = -200/700 = -0.286 px/MW -->
+  <rect x="150" y="74.1" width="80" height="175.9" fill="#4e79a7" stroke="#2c5f8a" stroke-width="1" rx="2"/>
+  <text x="190" y="69.1" text-anchor="middle" font-size="11" fill="#2c5f8a" font-weight="bold">616 MW</text>
+  <text x="190" y="270" text-anchor="middle" font-size="10" fill="#333">S3a</text>
+  <text x="190" y="285" text-anchor="middle" font-size="9" fill="#666">−50% pumps</text>
+  <text x="190" y="298" text-anchor="middle" font-size="9" fill="#666">ride-down</text>
+  
+  <!-- S3b: -30% pump → 640 MW -->
+  <rect x="290" y="67.1" width="80" height="182.9" fill="#59a14f" stroke="#3d7a3a" stroke-width="1" rx="2"/>
+  <text x="330" y="62.1" text-anchor="middle" font-size="11" fill="#3d7a3a" font-weight="bold">640 MW</text>
+  <text x="330" y="270" text-anchor="middle" font-size="10" fill="#333">S3b</text>
+  <text x="330" y="285" text-anchor="middle" font-size="9" fill="#666">−30% pumps</text>
+  <text x="330" y="298" text-anchor="middle" font-size="9" fill="#666">ride-down</text>
+  
+  <!-- S4: wet-bulb +6K → 640 MW -->
+  <rect x="430" y="67.1" width="80" height="182.9" fill="#e15759" stroke="#b03a3c" stroke-width="1" rx="2"/>
+  <text x="470" y="62.1" text-anchor="middle" font-size="11" fill="#b03a3c" font-weight="bold">640 MW</text>
+  <text x="470" y="270" text-anchor="middle" font-size="10" fill="#333">S4</text>
+  <text x="470" y="285" text-anchor="middle" font-size="9" fill="#666">Wet-bulb +6 K</text>
+  <text x="470" y="298" text-anchor="middle" font-size="9" fill="#666">first-order lag</text>
+  
+  <!-- Annotation -->
+  <text x="580" y="150" text-anchor="middle" font-size="10" fill="#666" font-style="italic">
+    No trip within
+  </text>
+  <text x="580" y="165" text-anchor="middle" font-size="10" fill="#666" font-style="italic">
+    8 h horizon
+  </text>
+</svg>
+
+<!-- ========== Fig. 9: Cascading outcomes ========== -->
+<h3 style="text-align:center;margin-top:30px;margin-bottom:5px;font-size:15px;">Fig. 9. IEEE 39 cascading outcomes: single-unit absorption vs common-mode collapse</h3>
+<svg viewBox="0 0 700 320" style="width:100%;height:auto;border:1px solid #ccc;">
+  <!-- Axes -->
+  <line x1="80" y1="250" x2="650" y2="250" stroke="#333" stroke-width="1.2"/>
+  <line x1="80" y1="50" x2="80" y2="250" stroke="#333" stroke-width="1.2"/>
+  
+  <text x="30" y="150" text-anchor="middle" font-size="11" fill="#333" transform="rotate(-90, 30, 150)">Lines removed</text>
+  
+  <!-- Y ticks -->
+  <text x="75" y="254" text-anchor="end" font-size="10" fill="#666">0</text>
+  <text x="75" y="204" text-anchor="end" font-size="10" fill="#666">3</text>
+  <text x="75" y="154" text-anchor="end" font-size="10" fill="#666">6</text>
+  <text x="75" y="104" text-anchor="end" font-size="10" fill="#666">9</text>
+  <text x="75" y="54" text-anchor="end" font-size="10" fill="#666">12</text>
+  <text x="75" y="44" text-anchor="end" font-size="10" fill="#666">15</text>
+  
+  <!-- G1: single unit → 0 lines -->
+  <rect x="130" y="248" width="70" height="2" fill="#59a14f" stroke="#3d7a3a" stroke-width="1" rx="2"/>
+  <text x="165" y="240" text-anchor="middle" font-size="11" fill="#3d7a3a" font-weight="bold">0</text>
+  <text x="165" y="270" text-anchor="middle" font-size="10" fill="#333">G1</text>
+  <text x="165" y="285" text-anchor="middle" font-size="9" fill="#666">single-unit trip</text>
+  <text x="165" y="298" text-anchor="middle" font-size="9" fill="#666">(Bus 33 → 0)</text>
+  
+  <!-- G2: dual pump → 13 lines -->
+  <!-- y: 0=250, 15=50 → scale = -200/15 = -13.3 px/line -->
+  <rect x="250" y="77" width="70" height="173" fill="#e15759" stroke="#b03a3c" stroke-width="1" rx="2"/>
+  <text x="285" y="72" text-anchor="middle" font-size="11" fill="#b03a3c" font-weight="bold">13</text>
+  <text x="285" y="270" text-anchor="middle" font-size="10" fill="#333">G2</text>
+  <text x="285" y="285" text-anchor="middle" font-size="9" fill="#666">dual pump trip</text>
+  <text x="285" y="298" text-anchor="middle" font-size="9" fill="#666">(33 &amp; 34 → 0)</text>
+  
+  <!-- G3: dual makeup → 13 lines -->
+  <rect x="370" y="77" width="70" height="173" fill="#e15759" stroke="#b03a3c" stroke-width="1" rx="2"/>
+  <text x="405" y="72" text-anchor="middle" font-size="11" fill="#b03a3c" font-weight="bold">13</text>
+  <text x="405" y="270" text-anchor="middle" font-size="10" fill="#333">G3</text>
+  <text x="405" y="285" text-anchor="middle" font-size="9" fill="#666">dual makeup trip</text>
+  <text x="405" y="298" text-anchor="middle" font-size="9" fill="#666">(33 &amp; 34 → 0)</text>
+  
+  <!-- G4: mixed → 13 lines -->
+  <rect x="490" y="77" width="70" height="173" fill="#e15759" stroke="#b03a3c" stroke-width="1" rx="2"/>
+  <text x="525" y="72" text-anchor="middle" font-size="11" fill="#b03a3c" font-weight="bold">13</text>
+  <text x="525" y="270" text-anchor="middle" font-size="10" fill="#333">G4</text>
+  <text x="525" y="285" text-anchor="middle" font-size="9" fill="#666">mixed pump + makeup</text>
+  <text x="525" y="298" text-anchor="middle" font-size="9" fill="#666">(33 pump, 34 makeup)</text>
+  
+  <!-- N-1 threshold annotation -->
+  <line x1="80" y1="200" x2="650" y2="200" stroke="#f28e2b" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="645" y="195" text-anchor="end" font-size="9" fill="#f28e2b">N-1 absorption margin</text>
+</svg>
+
+<!-- ========== Fig. 10: Black-box vs mechanistic unserved energy ========== -->
+<h3 style="text-align:center;margin-top:30px;margin-bottom:5px;font-size:15px;">Fig. 10. Incremental unserved energy by encoding convention (Bus 33, 652 MW; 1.15× load, 0–8 h)</h3>
+<svg viewBox="0 0 750 350" style="width:100%;height:auto;border:1px solid #ccc;">
+  <!-- Axes -->
+  <line x1="90" y1="280" x2="700" y2="280" stroke="#333" stroke-width="1.2"/>
+  <line x1="90" y1="40" x2="90" y2="280" stroke="#333" stroke-width="1.2"/>
+  
+  <text x="30" y="165" text-anchor="middle" font-size="11" fill="#333" transform="rotate(-90, 30, 165)">Incremental unserved energy (MWh)</text>
+  
+  <!-- Y ticks -->
+  <text x="85" y="284" text-anchor="end" font-size="10" fill="#666">0</text>
+  <text x="85" y="234" text-anchor="end" font-size="10" fill="#666">1000</text>
+  <text x="85" y="184" text-anchor="end" font-size="10" fill="#666">2000</text>
+  <text x="85" y="134" text-anchor="end" font-size="10" fill="#666">3000</text>
+  <text x="85" y="84" text-anchor="end" font-size="10" fill="#666">4000</text>
+  
+  <!-- Bars: 6 categories -->
+  <!-- y: 0=280, scale = -0.05 px/MWh (500 px = 50 px per 1000 MWh) -->
+  
+  <!-- 1. Instant trip: 4634 MWh -->
+  <rect x="110" y="48.3" width="70" height="231.7" fill="#e15759" stroke="#b03a3c" stroke-width="1" rx="2"/>
+  <text x="145" y="43.3" text-anchor="middle" font-size="10" fill="#b03a3c" font-weight="bold">4634</text>
+  <text x="145" y="300" text-anchor="middle" font-size="9" fill="#333">Instant</text>
+  <text x="145" y="313" text-anchor="middle" font-size="9" fill="#333">trip</text>
+  
+  <!-- 2. Fixed inventory: 2739 MWh -->
+  <rect x="210" y="143" width="70" height="137" fill="#f28e2b" stroke="#c46a1a" stroke-width="1" rx="2"/>
+  <text x="245" y="138" text-anchor="middle" font-size="10" fill="#c46a1a" font-weight="bold">2739</text>
+  <text x="245" y="300" text-anchor="middle" font-size="9" fill="#333">Fixed</text>
+  <text x="245" y="313" text-anchor="middle" font-size="9" fill="#333">hold-up</text>
+  
+  <!-- 3. Linear derate: 3266 MWh -->
+  <rect x="310" y="116.7" width="70" height="163.3" fill="#edc948" stroke="#c4a52f" stroke-width="1" rx="2"/>
+  <text x="345" y="111.7" text-anchor="middle" font-size="10" fill="#c4a52f" font-weight="bold">3266</text>
+  <text x="345" y="300" text-anchor="middle" font-size="9" fill="#333">Linear</text>
+  <text x="345" y="313" text-anchor="middle" font-size="9" fill="#333">derate</text>
+  
+  <!-- 4. Level-band: 2529 MWh -->
+  <rect x="410" y="153.6" width="70" height="126.4" fill="#b07aa1" stroke="#8a5a7e" stroke-width="1" rx="2"/>
+  <text x="445" y="148.6" text-anchor="middle" font-size="10" fill="#8a5a7e" font-weight="bold">2529</text>
+  <text x="445" y="300" text-anchor="middle" font-size="9" fill="#333">Level-band</text>
+  <text x="445" y="313" text-anchor="middle" font-size="9" fill="#333">pump map</text>
+  
+  <!-- 5. Mechanistic ride-down: 2169 MWh -->
+  <rect x="510" y="171.5" width="70" height="108.5" fill="#59a14f" stroke="#3d7a3a" stroke-width="1.5" rx="2"/>
+  <text x="545" y="166.5" text-anchor="middle" font-size="10" fill="#3d7a3a" font-weight="bold">2169</text>
+  <text x="545" y="300" text-anchor="middle" font-size="9" fill="#333">Ride-down</text>
+  <text x="545" y="313" text-anchor="middle" font-size="9" fill="#333">(mechanistic)</text>
+  
+  <!-- 6. Hold-load: 2163 MWh -->
+  <rect x="610" y="171.9" width="70" height="108.1" fill="#4e79a7" stroke="#2c5f8a" stroke-width="1.5" rx="2"/>
+  <text x="645" y="166.9" text-anchor="middle" font-size="10" fill="#2c5f8a" font-weight="bold">2163</text>
+  <text x="645" y="300" text-anchor="middle" font-size="9" fill="#333">Hold-load</text>
+  <text x="645" y="313" text-anchor="middle" font-size="9" fill="#333">(mechanistic)</text>
+  
+  <!-- Annotation -->
+  <text x="400" y="32" text-anchor="middle" font-size="10" fill="#888" font-style="italic">
+    Black-box encodings overstate 0–8 h incremental unserved energy by 17–114% vs mechanistic ride-down
+  </text>
+</svg>
+
+</div>
+</html>

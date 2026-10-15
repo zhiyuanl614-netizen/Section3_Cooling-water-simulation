@@ -1,0 +1,13 @@
+scope,benchmark,label,gen_id,p_rated_mw,t_derate_start_h,t_trip_h,trip_mechanism,p_at_1h_mw,p_at_3h_mw,p_at_5h_mw,delivered_energy_0_8h_mwh,delivered_energy_vs_mechanistic,grid_scope,baseline_shed_mw,shed_at_3h_mw,shed_at_5h_mw,shed_at_8h_mw,unserved_energy_0_8h_mwh,incremental_unserved_energy_0_8h_mwh,max_line_loading_percent_max
+500MW_prototype,instant_trip,Instantaneous trip at fault onset,prototype,500.0,0.0,0.0,assumed_instant_trip,0.0,0.0,0.0,0.0,0.0,,,,,,,,
+500MW_prototype,fixed_holdup_trip,"Full output to analytic inventory time, then trip",prototype,500.0,3.292536006004914,3.292536006004914,assumed_fixed_holdup_trip,500.0,500.0,0.0,1635.63,0.7761,,,,,,,,
+500MW_prototype,linear_to_min_then_trip,"Prescribed linear derate to technical minimum, then trip",prototype,500.0,0.05,3.292536006004914,assumed_linear_derate_trip,408.885,226.654,0.0,1148.13,0.5448,,,,,,,,
+500MW_prototype,simplified_level_band,Simplified level-band pump comparator,prototype,500.0,2.558333333333333,3.9908333333333332,backpressure_protection,500.0,427.385,0.0,1839.64,0.8729,,,,,,,,
+500MW_prototype,mechanistic_ride_down,Mechanism-resolved model,prototype,500.0,2.5605555555555557,5.072777777777778,pump_level,499.668,427.727,205.78,2107.59,1.0,,,,,,,,
+500MW_prototype,mechanistic_hold_load,Mechanism-resolved model,prototype,500.0,,4.294444444444444,pump_level,499.649,498.922,0.0,2141.13,1.0159,,,,,,,,
+IEEE39_G33_grid,instant_trip,Instantaneous trip at fault onset,G33,652.0,0.0,0.0,assumed_instant_trip,0.0,0.0,0.0,0.0,,G33_load_x1.15,221.854,801.159,801.159,801.159,6409.27,4634.44,100.0
+IEEE39_G33_grid,fixed_holdup_trip,"Full output to analytic inventory time, then trip",G33,652.0,3.2925360060049145,3.2925360060049145,assumed_fixed_holdup_trip,652.0,652.0,0.0,2132.87,,G33_load_x1.15,221.854,221.854,801.159,801.159,4514.21,2739.38,100.0
+IEEE39_G33_grid,linear_to_min_then_trip,"Prescribed linear derate to technical minimum, then trip",G33,652.0,0.05,3.2925360060049145,assumed_linear_derate_trip,533.186,295.557,0.0,1497.17,,G33_load_x1.15,221.854,526.037,801.159,801.159,5041.02,3266.19,100.0
+IEEE39_G33_grid,simplified_level_band,Simplified level-band pump comparator,G33,652.0,2.558333333333333,3.9908333333333332,backpressure_protection,652.0,557.31,0.0,2398.89,,G33_load_x1.15,221.854,297.228,801.159,801.159,4303.63,2528.79,100.0
+IEEE39_G33_grid,mechanistic_ride_down,Mechanism-resolved model,G33,652.0,2.5605555555555557,5.072777777777778,pump_level,651.567,557.756,268.338,2748.29,,G33_load_x1.15,221.854,296.874,550.98,801.159,3944.15,2169.32,100.0
+IEEE39_G33_grid,mechanistic_hold_load,Mechanism-resolved model,G33,652.0,,4.294444444444444,pump_level,651.542,650.594,0.0,2792.04,,G33_load_x1.15,221.854,222.973,801.159,801.159,3937.76,2162.93,100.0

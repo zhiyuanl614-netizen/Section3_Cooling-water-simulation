@@ -1,0 +1,301 @@
+<html style="margin:0;padding:0;">
+<title>Methods 章节技术示意图集</title>
+<div style="width:100%;max-width:900px;margin:0 auto;padding:20px;font-family:'Times New Roman',serif;">
+
+<!-- ========== Figure 1: Four-layer coupled model architecture ========== -->
+<h3 style="text-align:center;margin-bottom:5px;font-size:16px;">Fig. 1. Four-layer coupled architecture: from cold-end contingency to transmission cascading</h3>
+<svg viewBox="0 0 860 420" style="width:100%;height:auto;border:1px solid #ccc;">
+  <!-- Layer labels on left -->
+  <text x="20" y="60" font-size="13" font-weight="bold" fill="#333">Layer 1</text>
+  <text x="20" y="78" font-size="11" fill="#666">Quasi-steady</text>
+  <text x="20" y="92" font-size="11" fill="#666">equipment maps</text>
+
+  <text x="20" y="160" font-size="13" font-weight="bold" fill="#333">Layer 2</text>
+  <text x="20" y="178" font-size="11" fill="#666">First-order</text>
+  <text x="20" y="192" font-size="11" fill="#666">thermal lags</text>
+
+  <text x="20" y="260" font-size="13" font-weight="bold" fill="#333">Layer 3</text>
+  <text x="20" y="278" font-size="11" fill="#666">Operator SOP</text>
+  <text x="20" y="292" font-size="11" fill="#666">&amp; protection</text>
+
+  <text x="20" y="360" font-size="13" font-weight="bold" fill="#333">Layer 4</text>
+  <text x="20" y="378" font-size="11" fill="#666">DC power flow</text>
+  <text x="20" y="392" font-size="11" fill="#666">cascading</text>
+
+  <!-- Layer 1 boxes -->
+  <rect x="110" y="40" width="140" height="60" fill="#e8f0fe" stroke="#4285f4" stroke-width="1.2" rx="4"/>
+  <text x="180" y="65" text-anchor="middle" font-size="11" fill="#1a3a6e">Tower e-NTU</text>
+  <text x="180" y="82" text-anchor="middle" font-size="10" fill="#555">effectiveness–NTU</text>
+
+  <rect x="290" y="40" width="140" height="60" fill="#e8f0fe" stroke="#4285f4" stroke-width="1.2" rx="4"/>
+  <text x="360" y="65" text-anchor="middle" font-size="11" fill="#1a3a6e">Condenser UA</text>
+  <text x="360" y="82" text-anchor="middle" font-size="10" fill="#555">UA–LMTD inversion</text>
+
+  <rect x="470" y="40" width="140" height="60" fill="#e8f0fe" stroke="#4285f4" stroke-width="1.2" rx="4"/>
+  <text x="540" y="65" text-anchor="middle" font-size="11" fill="#1a3a6e">Pump curves</text>
+  <text x="540" y="82" text-anchor="middle" font-size="10" fill="#555">head/NPSH (ANSI-HI)</text>
+
+  <rect x="650" y="40" width="160" height="60" fill="#e8f0fe" stroke="#4285f4" stroke-width="1.2" rx="4"/>
+  <text x="730" y="65" text-anchor="middle" font-size="11" fill="#1a3a6e">Water balance</text>
+  <text x="730" y="82" text-anchor="middle" font-size="10" fill="#555">evap / drift / blowdown</text>
+
+  <!-- Layer 2 boxes -->
+  <rect x="110" y="140" width="140" height="60" fill="#fef7e0" stroke="#f9ab00" stroke-width="1.2" rx="4"/>
+  <text x="180" y="165" text-anchor="middle" font-size="11" fill="#8a6d00">τ_tower</text>
+  <text x="180" y="182" text-anchor="middle" font-size="10" fill="#555">cold-water temp lag</text>
+
+  <rect x="290" y="140" width="140" height="60" fill="#fef7e0" stroke="#f9ab00" stroke-width="1.2" rx="4"/>
+  <text x="360" y="165" text-anchor="middle" font-size="11" fill="#8a6d00">τ_cond</text>
+  <text x="360" y="182" text-anchor="middle" font-size="10" fill="#555">saturation temp lag</text>
+
+  <rect x="470" y="140" width="140" height="60" fill="#fef7e0" stroke="#f9ab00" stroke-width="1.2" rx="4"/>
+  <text x="540" y="165" text-anchor="middle" font-size="11" fill="#8a6d00">τ_pump = 10 s</text>
+  <text x="540" y="182" text-anchor="middle" font-size="10" fill="#555">flow tracking lag</text>
+
+  <rect x="650" y="140" width="160" height="60" fill="#fef7e0" stroke="#f9ab00" stroke-width="1.2" rx="4"/>
+  <text x="730" y="165" text-anchor="middle" font-size="11" fill="#8a6d00">Basin inventory ODE</text>
+  <text x="730" y="182" text-anchor="middle" font-size="10" fill="#555">A·dH/dt = losses − makeup</text>
+
+  <!-- Layer 3 boxes -->
+  <rect x="110" y="240" width="200" height="60" fill="#e6f4ea" stroke="#34a853" stroke-width="1.2" rx="4"/>
+  <text x="210" y="265" text-anchor="middle" font-size="11" fill="#1e5e32">Backpressure correction</text>
+  <text x="210" y="282" text-anchor="middle" font-size="10" fill="#555">piecewise k_p per kPa</text>
+
+  <rect x="350" y="240" width="200" height="60" fill="#e6f4ea" stroke="#34a853" stroke-width="1.2" rx="4"/>
+  <text x="450" y="265" text-anchor="middle" font-size="11" fill="#1e5e32">Ride-down / Hold-load</text>
+  <text x="450" y="282" text-anchor="middle" font-size="10" fill="#555">ramp-limited P tracking</text>
+
+  <rect x="590" y="240" width="220" height="60" fill="#e6f4ea" stroke="#34a853" stroke-width="1.2" rx="4"/>
+  <text x="700" y="265" text-anchor="middle" font-size="11" fill="#1e5e32">Protection logic</text>
+  <text x="700" y="282" text-anchor="middle" font-size="10" fill="#555">4 trip modes → unique label</text>
+
+  <!-- Layer 4 box -->
+  <rect x="200" y="340" width="460" height="60" fill="#fce8e6" stroke="#ea4335" stroke-width="1.2" rx="4"/>
+  <text x="430" y="365" text-anchor="middle" font-size="12" fill="#8b1a1a">DC Power Flow — IEEE 39-bus</text>
+  <text x="430" y="382" text-anchor="middle" font-size="10" fill="#555">successive overload tripping · simultaneous removal · cascade depth / trips</text>
+
+  <!-- Vertical arrows between layers -->
+  <line x1="180" y1="100" x2="180" y2="140" stroke="#666" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <line x1="360" y1="100" x2="360" y2="140" stroke="#666" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <line x1="540" y1="100" x2="540" y2="140" stroke="#666" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <line x1="730" y1="100" x2="730" y2="140" stroke="#666" stroke-width="1" marker-end="url(#arrowhead)"/>
+
+  <line x1="360" y1="200" x2="210" y2="240" stroke="#666" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <line x1="540" y1="200" x2="450" y2="240" stroke="#666" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <line x1="730" y1="200" x2="700" y2="240" stroke="#666" stroke-width="1" marker-end="url(#arrowhead)"/>
+
+  <line x1="450" y1="300" x2="430" y2="340" stroke="#666" stroke-width="1.2" marker-end="url(#arrowhead)"/>
+
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#666"/>
+    </marker>
+  </defs>
+
+  <!-- Time-scale annotation on right -->
+  <text x="800" y="70" font-size="10" fill="#888" font-style="italic">min–h</text>
+  <text x="800" y="170" font-size="10" fill="#888" font-style="italic">s–min</text>
+  <text x="800" y="270" font-size="10" fill="#888" font-style="italic">event</text>
+  <text x="800" y="370" font-size="10" fill="#888" font-style="italic">quasi-static</text>
+</svg>
+
+<!-- ========== Figure 2: Cold-end physical schematic ========== -->
+<h3 style="text-align:center;margin-top:30px;margin-bottom:5px;font-size:16px;">Fig. 2. Cold-end system schematic: steam rejection → condenser → tower → pump loop → basin</h3>
+<svg viewBox="0 0 860 360" style="width:100%;height:auto;border:1px solid #ccc;">
+  <!-- Steam turbine / condenser -->
+  <rect x="50" y="80" width="130" height="100" fill="#e8f0fe" stroke="#4285f4" stroke-width="1.5" rx="4"/>
+  <text x="115" y="115" text-anchor="middle" font-size="12" font-weight="bold" fill="#1a3a6e">Condenser</text>
+  <text x="115" y="135" text-anchor="middle" font-size="10" fill="#555">Q_c(P)</text>
+  <text x="115" y="150" text-anchor="middle" font-size="10" fill="#555">T_sat = T_out + TTD</text>
+  <text x="115" y="165" text-anchor="middle" font-size="10" fill="#555">p_b = p_sat(T_sat)</text>
+
+  <!-- Steam in -->
+  <path d="M 20 110 L 50 110" stroke="#8b1a1a" stroke-width="2" marker-end="url(#arrow2)"/>
+  <text x="35" y="100" text-anchor="middle" font-size="10" fill="#8b1a1a">Steam</text>
+  <text x="35" y="125" text-anchor="middle" font-size="9" fill="#8b1a1a">Q_c</text>
+
+  <!-- Cooling tower -->
+  <path d="M 350 60 L 300 180 L 400 180 Z" fill="#e6f4ea" stroke="#34a853" stroke-width="1.5"/>
+  <text x="350" y="100" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e5e32">Cooling</text>
+  <text x="350" y="115" text-anchor="middle" font-size="12" font-weight="bold" fill="#1e5e32">Tower</text>
+  <text x="350" y="145" text-anchor="middle" font-size="9" fill="#555">e-NTU</text>
+  <text x="350" y="158" text-anchor="middle" font-size="9" fill="#555">T_in → T_out</text>
+
+  <!-- Air in/out -->
+  <path d="M 320 40 L 330 60" stroke="#888" stroke-width="1.5" marker-end="url(#arrow2)"/>
+  <text x="305" y="35" text-anchor="middle" font-size="9" fill="#666">T_wb</text>
+  <path d="M 370 60 L 380 40" stroke="#888" stroke-width="1.5" marker-end="url(#arrow2)"/>
+  <text x="395" y="35" text-anchor="middle" font-size="9" fill="#666">warm air</text>
+
+  <!-- Hot water line: condenser → tower top -->
+  <path d="M 180 100 C 230 80, 270 80, 330 80" stroke="#d35400" stroke-width="2.5" fill="none" marker-end="url(#arrow2)"/>
+  <text x="255" y="70" text-anchor="middle" font-size="10" fill="#d35400">Hot water T_out</text>
+
+  <!-- Cold water line: tower bottom → pump → condenser -->
+  <path d="M 300 180 L 250 180 L 250 250 L 150 250 L 150 180 L 180 160" 
+        stroke="#2980b9" stroke-width="2.5" fill="none" marker-end="url(#arrow2)"/>
+  <text x="200" y="245" text-anchor="middle" font-size="10" fill="#2980b9">Cold water T_in</text>
+
+  <!-- Circulating pump -->
+  <circle cx="250" cy="220" r="18" fill="#fef7e0" stroke="#f9ab00" stroke-width="1.5"/>
+  <text x="250" y="224" text-anchor="middle" font-size="9" fill="#8a6d00">CWP</text>
+  <text x="250" y="255" text-anchor="middle" font-size="9" fill="#555">head / NPSH</text>
+
+  <!-- Basin -->
+  <rect x="350" y="250" width="180" height="50" fill="#d4e6f1" stroke="#2980b9" stroke-width="1.5" rx="2"/>
+  <text x="440" y="272" text-anchor="middle" font-size="11" font-weight="bold" fill="#1a5276">Cooling Basin</text>
+  <text x="440" y="290" text-anchor="middle" font-size="9" fill="#555">A · dH/dt = −(E + B + D − M)</text>
+
+  <!-- Tower → basin -->
+  <path d="M 350 180 L 350 250" stroke="#2980b9" stroke-width="2" fill="none" marker-end="url(#arrow2)"/>
+
+  <!-- Makeup water -->
+  <path d="M 620 275 L 530 275" stroke="#1e8449" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrow2)"/>
+  <text x="575" y="265" text-anchor="middle" font-size="10" fill="#1e8449">Makeup M_ext</text>
+  <text x="575" y="295" text-anchor="middle" font-size="9" fill="#1e8449">(contingency input)</text>
+
+  <!-- Blowdown -->
+  <path d="M 440 300 L 440 330" stroke="#7d3c98" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrow2)"/>
+  <text x="490" y="320" text-anchor="middle" font-size="10" fill="#7d3c98">Blowdown B</text>
+  <text x="490" y="335" text-anchor="middle" font-size="9" fill="#7d3c98">(isolated / maintained)</text>
+
+  <!-- Evaporation / drift annotations -->
+  <path d="M 380 180 L 380 210" stroke="#e74c3c" stroke-width="1.5" stroke-dasharray="3,2" marker-end="url(#arrow2)"/>
+  <text x="400" y="200" font-size="9" fill="#e74c3c">E (evap.)</text>
+  <path d="M 320 180 L 310 210" stroke="#e67e22" stroke-width="1.5" stroke-dasharray="3,2" marker-end="url(#arrow2)"/>
+  <text x="290" y="200" text-anchor="middle" font-size="9" fill="#e67e22">D (drift)</text>
+
+  <!-- Generator output -->
+  <path d="M 115 180 L 115 220 L 50 220" stroke="#27ae60" stroke-width="2" fill="none" marker-end="url(#arrow2)"/>
+  <text x="50" y="210" text-anchor="middle" font-size="10" fill="#27ae60">P_avail(t)</text>
+  <text x="50" y="235" text-anchor="middle" font-size="9" fill="#555">→ grid</text>
+
+  <defs>
+    <marker id="arrow2" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#666"/>
+    </marker>
+  </defs>
+</svg>
+
+<!-- ========== Figure 3: Multi-timescale integration ========== -->
+<h3 style="text-align:center;margin-top:30px;margin-bottom:5px;font-size:16px;">Fig. 3. Multi-timescale co-simulation: heterogeneous time steps across four layers</h3>
+<svg viewBox="0 0 860 280" style="width:100%;height:auto;border:1px solid #ccc;">
+  <!-- Time axis -->
+  <line x1="80" y1="220" x2="800" y2="220" stroke="#333" stroke-width="1.5" marker-end="url(#arrow3)"/>
+  <text x="820" y="225" font-size="11" fill="#333">time</text>
+
+  <!-- Time scale labels -->
+  <text x="120" y="240" text-anchor="middle" font-size="10" fill="#666">10⁰ s</text>
+  <text x="250" y="240" text-anchor="middle" font-size="10" fill="#666">10¹ s</text>
+  <text x="400" y="240" text-anchor="middle" font-size="10" fill="#666">10² s</text>
+  <text x="550" y="240" text-anchor="middle" font-size="10" fill="#666">10³ s</text>
+  <text x="700" y="240" text-anchor="middle" font-size="10" fill="#666">10⁴ s</text>
+
+  <!-- Tick marks -->
+  <line x1="120" y1="215" x2="120" y2="225" stroke="#333" stroke-width="1"/>
+  <line x1="250" y1="215" x2="250" y2="225" stroke="#333" stroke-width="1"/>
+  <line x1="400" y1="215" x2="400" y2="225" stroke="#333" stroke-width="1"/>
+  <line x1="550" y1="215" x2="550" y2="225" stroke="#333" stroke-width="1"/>
+  <line x1="700" y1="215" x2="700" y2="225" stroke="#333" stroke-width="1"/>
+
+  <!-- Fast layer: pump flow tracking -->
+  <rect x="100" y="40" width="120" height="35" fill="#fce8e6" stroke="#ea4335" stroke-width="1.2" rx="3"/>
+  <text x="160" y="62" text-anchor="middle" font-size="10" fill="#8b1a1a">Fast: τ_pump = 10 s</text>
+  <line x1="160" y1="75" x2="160" y2="220" stroke="#ea4335" stroke-width="0.8" stroke-dasharray="3,3" opacity="0.4"/>
+
+  <!-- Vacuum protection delay -->
+  <rect x="180" y="40" width="80" height="35" fill="#fce8e6" stroke="#ea4335" stroke-width="1.2" rx="3" opacity="0.7"/>
+  <text x="220" y="62" text-anchor="middle" font-size="9" fill="#8b1a1a">vacuum delay</text>
+
+  <!-- Intermediate layer: thermal lags -->
+  <rect x="200" y="100" width="200" height="35" fill="#fef7e0" stroke="#f9ab00" stroke-width="1.2" rx="3"/>
+  <text x="300" y="122" text-anchor="middle" font-size="10" fill="#8a6d00">Intermediate: τ_tower, τ_cond (10² s)</text>
+  <line x1="300" y1="135" x2="300" y2="220" stroke="#f9ab00" stroke-width="0.8" stroke-dasharray="3,3" opacity="0.4"/>
+
+  <!-- Slow layer: basin inventory -->
+  <rect x="450" y="160" width="250" height="35" fill="#e8f0fe" stroke="#4285f4" stroke-width="1.2" rx="3"/>
+  <text x="575" y="182" text-anchor="middle" font-size="10" fill="#1a3a6e">Slow: basin inventory ODE (10³–10⁴ s)</text>
+  <line x1="575" y1="195" x2="575" y2="220" stroke="#4285f4" stroke-width="0.8" stroke-dasharray="3,3" opacity="0.4"/>
+
+  <!-- Event layer -->
+  <polygon points="750,100 780,117.5 750,135 720,117.5" fill="#e6f4ea" stroke="#34a853" stroke-width="1.2"/>
+  <text x="750" y="121" text-anchor="middle" font-size="9" fill="#1e5e32">Event</text>
+  <text x="750" y="150" text-anchor="middle" font-size="9" fill="#555">DC cascade</text>
+  <line x1="750" y1="135" x2="750" y2="220" stroke="#34a853" stroke-width="0.8" stroke-dasharray="3,3" opacity="0.4"/>
+
+  <!-- C2 quasi-static annotation -->
+  <rect x="500" y="40" width="220" height="30" fill="none" stroke="#999" stroke-width="1" stroke-dasharray="4,3" rx="3"/>
+  <text x="610" y="60" text-anchor="middle" font-size="9" fill="#666">C2 control: all τ → 0 (quasi-static)</text>
+
+  <defs>
+    <marker id="arrow3" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#333"/>
+    </marker>
+  </defs>
+</svg>
+
+<!-- ========== Figure 4: Cascading algorithm flow ========== -->
+<h3 style="text-align:center;margin-top:30px;margin-bottom:5px;font-size:16px;">Fig. 4. Transmission-level cascading algorithm: DC power flow with simultaneous overload tripping</h3>
+<svg viewBox="0 0 860 400" style="width:100%;height:auto;border:1px solid #ccc;">
+  <!-- Start -->
+  <ellipse cx="430" cy="35" rx="80" ry="22" fill="#e6f4ea" stroke="#34a853" stroke-width="1.5"/>
+  <text x="430" y="40" text-anchor="middle" font-size="11" fill="#1e5e32">Start: P_avail(t) inputs</text>
+
+  <!-- Arrow down -->
+  <line x1="430" y1="57" x2="430" y2="85" stroke="#666" stroke-width="1.2" marker-end="url(#arrow4)"/>
+
+  <!-- Build injections -->
+  <rect x="300" y="85" width="260" height="40" fill="#e8f0fe" stroke="#4285f4" stroke-width="1.2" rx="4"/>
+  <text x="430" y="110" text-anchor="middle" font-size="11" fill="#1a3a6e">Build nodal injections: P_gen, P_load</text>
+
+  <line x1="430" y1="125" x2="430" y2="155" stroke="#666" stroke-width="1.2" marker-end="url(#arrow4)"/>
+
+  <!-- Solve DC power flow -->
+  <rect x="300" y="155" width="260" height="40" fill="#e8f0fe" stroke="#4285f4" stroke-width="1.2" rx="4"/>
+  <text x="430" y="180" text-anchor="middle" font-size="11" fill="#1a3a6e">Solve DC PF: Bθ = P (reduced matrix)</text>
+
+  <line x1="430" y1="195" x2="430" y2="225" stroke="#666" stroke-width="1.2" marker-end="url(#arrow4)"/>
+
+  <!-- Evaluate line flows -->
+  <rect x="300" y="225" width="260" height="40" fill="#e8f0fe" stroke="#4285f4" stroke-width="1.2" rx="4"/>
+  <text x="430" y="250" text-anchor="middle" font-size="11" fill="#1a3a6e">Evaluate flows: |f_ij| vs. thermal rating</text>
+
+  <line x1="430" y1="265" x2="430" y2="295" stroke="#666" stroke-width="1.2" marker-end="url(#arrow4)"/>
+
+  <!-- Decision: any overload? -->
+  <polygon points="430,295 540,330 430,365 320,330" fill="#fef7e0" stroke="#f9ab00" stroke-width="1.5"/>
+  <text x="430" y="328" text-anchor="middle" font-size="11" fill="#8a6d00">Any overload?</text>
+  <text x="430" y="345" text-anchor="middle" font-size="9" fill="#666">(|f_ij| &gt; F_rated)</text>
+
+  <!-- Yes branch: right then down -->
+  <line x1="540" y1="330" x2="650" y2="330" stroke="#ea4335" stroke-width="1.5" marker-end="url(#arrow4)"/>
+  <text x="595" y="322" text-anchor="middle" font-size="11" fill="#ea4335">Yes</text>
+
+  <!-- Remove all overloaded lines simultaneously -->
+  <rect x="650" y="300" width="180" height="60" fill="#fce8e6" stroke="#ea4335" stroke-width="1.2" rx="4"/>
+  <text x="740" y="325" text-anchor="middle" font-size="10" fill="#8b1a1a">Remove ALL overloaded</text>
+  <text x="740" y="340" text-anchor="middle" font-size="10" fill="#8b1a1a">branches (simultaneous)</text>
+  <text x="740" y="355" text-anchor="middle" font-size="9" fill="#666">rebuild B-matrix</text>
+
+  <!-- Loop back up -->
+  <path d="M 740 300 L 740 175 L 560 175" stroke="#ea4335" stroke-width="1.2" fill="none" stroke-dasharray="5,3" marker-end="url(#arrow4)"/>
+  <text x="650" y="168" text-anchor="middle" font-size="9" fill="#ea4335">iterate</text>
+
+  <!-- No branch: down to output -->
+  <line x1="430" y1="365" x2="430" y2="385" stroke="#34a853" stroke-width="1.5" marker-end="url(#arrow4)"/>
+  <text x="450" y="378" font-size="11" fill="#34a853">No</text>
+
+  <!-- Output -->
+  <ellipse cx="430" cy="390" rx="100" ry="0" fill="none"/>
+  <text x="430" y="395" text-anchor="middle" font-size="11" font-weight="bold" fill="#1e5e32">Output: cascade depth, # lines tripped, lost load</text>
+
+  <defs>
+    <marker id="arrow4" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#666"/>
+    </marker>
+  </defs>
+</svg>
+
+</div>
+</html>

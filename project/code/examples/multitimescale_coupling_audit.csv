@@ -1,0 +1,12 @@
+scope,trajectory,macro_step_min,n_snapshot_nodes,derate_event_included,trip_event_included,node_integrated_energy_mwh,reference_energy_mwh,energy_rel_error_pct_vs_reference,unserved_energy_0_8h_mwh,incremental_unserved_energy_0_8h_mwh,incremental_energy_diff_pct_vs_5min
+500MW_prototype,mechanistic_ride_down,30,19,True,True,2102.633,2107.587,-0.235,,,
+500MW_prototype,mechanistic_ride_down,15,35,True,True,2101.317,2107.587,-0.2975,,,
+500MW_prototype,mechanistic_ride_down,5,99,True,True,2100.927,2107.587,-0.316,,,
+500MW_prototype,mechanistic_ride_down,1,483,True,True,2107.587,2107.587,0.0,,,
+IEEE39_G33_cold_end,mechanistic_ride_down,30,19,True,True,2741.833,2748.293,-0.235,,,
+IEEE39_G33_cold_end,mechanistic_ride_down,15,35,True,True,2740.117,2748.293,-0.2975,,,
+IEEE39_G33_cold_end,mechanistic_ride_down,5,99,True,True,2739.609,2748.293,-0.316,,,
+IEEE39_G33_cold_end,mechanistic_ride_down,1,483,True,True,2748.293,2748.293,-0.0,,,
+IEEE39_G33_grid_load_x1.15,mechanistic_ride_down,30,19,True,True,,,,3942.716,2167.882,-0.0851
+IEEE39_G33_grid_load_x1.15,mechanistic_ride_down,15,35,True,True,,,,3944.154,2169.32,-0.0189
+IEEE39_G33_grid_load_x1.15,mechanistic_ride_down,5,99,True,True,,,,3944.563,2169.729,0.0

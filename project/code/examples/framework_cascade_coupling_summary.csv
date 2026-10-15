@@ -1,0 +1,15 @@
+scenario_id,family,fault_type,primary_bus,primary_mw,t_trip_h,t_trip_min,trip_mechanism,p_final_mw,secondary_bus,secondary_t_trip_h,secondary_mechanism,cascade_triggered,n_lines_removed,n_cascade_stages,quasi_static,blowdown_policy,strategy,description
+S0,baseline,none,33,652.0,,,no_trip_within_horizon,652.0,,,,False,0,0,False,isolate_on_detection,hold_load,Healthy baseline; no cold-end fault
+S1a,cold_end,makeup_interrupt,33,652.0,5.0728,304.367,pump_level,0.0,,,,,,,False,isolate_on_detection,ride_down,Makeup interrupt with blowdown isolation (default A3)
+S1b,cold_end,makeup_interrupt,33,652.0,3.8808,232.85,pump_level,0.0,,,,,,,False,maintain,ride_down,Makeup interrupt with blowdown maintained (counterfactual)
+S2,cold_end,pump_failure,33,652.0,0.0078,0.467,backpressure_protection,0.0,,,,,,,False,isolate_on_detection,ride_down,Full circulating-pump outage
+S2qs,control,pump_failure,33,652.0,0.0008,0.05,backpressure_protection,0.0,,,,False,0,0,True,isolate_on_detection,ride_down,C2 quasi-static control for full pump outage
+S3a,cold_end,pump_failure,33,652.0,,,no_trip_within_horizon,615.72,,,,,,,False,isolate_on_detection,ride_down,Partial pump outage 50 percent with operator ride-down
+S3b,cold_end,pump_failure,33,652.0,,,no_trip_within_horizon,640.02,,,,,,,False,isolate_on_detection,ride_down,Partial pump outage 30 percent with operator ride-down
+S3a_hold,control,pump_failure,33,652.0,0.0872,5.233,backpressure_protection,0.0,,,,False,0,0,False,isolate_on_detection,hold_load,SI only: 50 percent pump outage under frozen heat hold_load
+S4,cold_end,wet_bulb_increase,33,652.0,,,no_trip_within_horizon,640.24,,,,,,,False,isolate_on_detection,ride_down,Wet-bulb rise +6 K
+C1_hold,control,makeup_interrupt,33,652.0,4.2944,257.667,pump_level,0.0,,,,False,0,0,False,isolate_on_detection,hold_load,C1 hold-load vs ride-down on makeup interrupt
+G1,cascade,pump_failure,33,652.0,0.0078,0.467,backpressure_protection,0.0,,,,False,0,0,False,isolate_on_detection,ride_down,Single-unit pump trip into IEEE39 cascade check
+G2,cascade,pump_failure,33,652.0,0.0078,0.467,backpressure_protection,0.0,34,0.0078,backpressure_protection,True,13,2,False,isolate_on_detection,ride_down,Dual-unit full pump outage common-mode cascade
+G3,cascade,makeup_interrupt,33,652.0,5.0728,304.367,pump_level,0.0,34,5.0728,pump_level,True,13,2,False,isolate_on_detection,ride_down,Dual makeup interrupt; cascade only after trips
+G4,cascade,mixed_pump_makeup,33,652.0,0.0078,0.467,backpressure_protection,0.0,34,5.0728,pump_level,True,13,2,False,isolate_on_detection,ride_down,Bus33 pump full outage + Bus34 makeup interrupt

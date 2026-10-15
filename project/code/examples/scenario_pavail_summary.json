@@ -1,0 +1,34 @@
+[
+  {
+    "scenario_id": "S1_G33",
+    "n_faulted": 1,
+    "faulted": [
+      "G33"
+    ],
+    "band": "base",
+    "package": "baseline",
+    "capacity_lost_mw": 652.0,
+    "fault_pavail_mw": {
+      "G33": 0.0
+    },
+    "time_to_trip_h": {
+      "G33": 3.29
+    }
+  },
+  {
+    "scenario_id": "S1_G34",
+    "n_faulted": 1,
+    "faulted": [
+      "G34"
+    ],
+    "band": "base",
+    "package": "baseline",
+    "capacity_lost_mw": 508.0,
+    "fault_pavail_mw": {
+      "G34": 0.0
+    },
+    "time_to_trip_h": {
+      "G34": 3.29
+    }
+  }
+]
