@@ -1,0 +1,15 @@
+scenario_id,family,fault_type,primary_bus,primary_mw,secondary_bus,secondary_mw,pump_loss_frac,twb_rise_c,blowdown_policy,strategy,quasi_static,t_max_h,description
+S0,baseline,none,33,652,,,0,0,isolate_on_detection,hold_load,0,1,Healthy baseline; no cold-end fault
+S1a,cold_end,makeup_interrupt,33,652,,,0,0,isolate_on_detection,ride_down,0,12,Makeup interrupt with blowdown isolation (default A3)
+S1b,cold_end,makeup_interrupt,33,652,,,0,0,maintain,ride_down,0,12,Makeup interrupt with blowdown maintained (counterfactual)
+S2,cold_end,pump_failure,33,652,,,1.0,0,isolate_on_detection,ride_down,0,1,Full circulating-pump outage
+S2qs,control,pump_failure,33,652,,,1.0,0,isolate_on_detection,ride_down,1,1,C2 quasi-static control for full pump outage
+S3a,cold_end,pump_failure,33,652,,,0.5,0,isolate_on_detection,ride_down,0,1,Partial pump outage 50 percent with operator ride-down
+S3b,cold_end,pump_failure,33,652,,,0.3,0,isolate_on_detection,ride_down,0,1,Partial pump outage 30 percent with operator ride-down
+S3a_hold,control,pump_failure,33,652,,,0.5,0,isolate_on_detection,hold_load,0,1,SI only: 50 percent pump outage under frozen heat hold_load
+S4,cold_end,wet_bulb_increase,33,652,,,0,6.0,isolate_on_detection,ride_down,0,4,Wet-bulb rise +6 K
+C1_hold,control,makeup_interrupt,33,652,,,0,0,isolate_on_detection,hold_load,0,12,C1 hold-load vs ride-down on makeup interrupt
+G1,cascade,pump_failure,33,652,,,1.0,0,isolate_on_detection,ride_down,0,1,Single-unit pump trip into IEEE39 cascade check
+G2,cascade,pump_failure,33,652,34,508,1.0,0,isolate_on_detection,ride_down,0,1,Dual-unit full pump outage common-mode cascade
+G3,cascade,makeup_interrupt,33,652,34,508,0,0,isolate_on_detection,ride_down,0,12,Dual makeup interrupt; cascade only after trips
+G4,cascade,mixed_pump_makeup,33,652,34,508,1.0,0,isolate_on_detection,ride_down,0,12,Bus33 pump full outage + Bus34 makeup interrupt

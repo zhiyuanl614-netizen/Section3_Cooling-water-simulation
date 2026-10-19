@@ -1,0 +1,169 @@
+{
+  "date": "2026-10-19",
+  "revision_note": "Re-run verification on 2026-10-19 after the workspace cleanup and Option B title adoption: 16 checks PASS; 242 protected files byte-identical; thermal manifest carries 318 payloads (dc_v07/opf_v071 32 entries retired with original SHA-256 recorded in manifest.retired_files). Author placeholders and final page-layout review remain pending; submission_ready=false.",
+  "verdict": "PASS",
+  "checks": [
+    {
+      "check": "All 242 prior protected files (including illustrated_v072 and lag_ablation_v072) remain byte-identical",
+      "passed": true
+    },
+    {
+      "check": "Manifest payloads (318 after 32 dc_v07/opf_v071 payloads retired by the 2026-10-19 cleanup) have no newly changed member beyond the 10 authorized in thermal_v072",
+      "passed": true
+    },
+    {
+      "check": "All three original research questions retained verbatim in full text",
+      "passed": true
+    },
+    {
+      "check": "Title updated to the Option B mechanistic-modeling formulation and no response-number headings exist",
+      "passed": true
+    },
+    {
+      "check": "All 27 display equations identical to verified candidate",
+      "passed": true
+    },
+    {
+      "check": "All mathematical delimiters balanced and no placeholders remain",
+      "passed": true
+    },
+    {
+      "check": "All 59 references retained in order with complete titles and preserved DOIs",
+      "passed": true
+    },
+    {
+      "check": "RQ2 recoupled gate passes 8 gate + 60 matrix + 12 detuned rating runs with max residual < 1e-7 MW",
+      "passed": true
+    },
+    {
+      "check": "Migrated v0.7.2 six-encoding, five-load and G34 adequacy gate passes (14 + 24 rows, 162 extra snapshots)",
+      "passed": true
+    },
+    {
+      "check": "All 6 figures (including updated Figure 4) pass alignment, glyph floor >= 5 pt and 0 collision warnings/failures",
+      "passed": true
+    },
+    {
+      "check": "Word audit passes with 27 OMML equations, 19 subsections, 11 tables and 6 exact figures",
+      "passed": true
+    },
+    {
+      "check": "Actual Word XML contains 27 oMathPara equations and 6 exact figure PNGs",
+      "passed": true
+    },
+    {
+      "check": "26 combined RQ2 + RQ3 + OPF expansion + illustrated + bibliography contract tests pass",
+      "passed": true
+    },
+    {
+      "check": "Author-reserved research framework remains absent",
+      "passed": true
+    },
+    {
+      "check": "External calibration remains NOT_ESTABLISHED_DATA_GAP",
+      "passed": true
+    },
+    {
+      "check": "All 242 protected prior files still unchanged at audit completion",
+      "passed": true
+    }
+  ],
+  "original_research_questions_preserved": true,
+  "RQ2_recoupled_complete": true,
+  "RQ3_lag_omission_bias_established": true,
+  "RQ3_opf_six_encoding_five_load_g34_migrated": true,
+  "bibliography_59_full_titles_completed": true,
+  "protected_files_unchanged": 242,
+  "rq2_cascade_runs_verified": 80,
+  "new_contract_tests_passed": 26,
+  "external_validation_status": "NOT_ESTABLISHED_DATA_GAP",
+  "word_final_page_layout_reviewed": false,
+  "submission_ready": false,
+  "evidence_sha256": {
+    "audit_rq2_recoupled.py": "b3187dd7db264a0822cc94e85884d9303ef5833e4197d242191a18a52fac0620",
+    "build_package.py": "0aa89700c83493d83544bb502677e878fc929529f87247cfa3e14bc719d59cca",
+    "check_sync_B.py": "26be2c826efa0b443386e5d287da950377033a1a9af6d8b36e8cde6fac07576e",
+    "CLEANUP_MANIFEST_2026-10-17.json": "5c37f17021b3b044b90025d7580aa99d6fe96756fd5c7abc243ea2dd2df1c2fe",
+    "CROSSREF_FULL_METADATA.json": "871f0d265143932bf82280bce6cd402a417d329a1355e2e6cfbde5e29cb4a015",
+    "CROSSREF_TITLES_1_48.json": "dd2de5e821f6bbc7bcfc4377a7423bc285487c866b7771deef324a629bf14a1b",
+    "export_word.py": "62747252746f827db303cf866c73f3606d7a455cc2482ae4240e194bba7ea9a9",
+    "Figure_atlas_rq2_rq3_v072.pdf": "7b36c6bc40508a1d5d90332ef82018c29f3a03c6046d8e67c124bc3f607951d6",
+    "FIGURE_CAPTIONS.json": "572b7012f15499eb6608da01e751fd77379532c0edc9a3b0135e47f510cab1a7",
+    "FIGURE_QA_SUMMARY.json": "41084cee00223365919b06ca8d47520da5bc0c6821ab0e2df7ed345d89534502",
+    "FIGURE_SOURCE_MANIFEST.json": "fb9306bba4f742f2a11c340ae2b6281b1292a6ca5af9f60e336a4a1a73f4f27d",
+    "figures\\fig01.alignment.json": "e25531c8ab6d0cf8779266f3a326d1d430271fd4da7685a5cf580be9c1b18df4",
+    "figures\\fig01.collision-audit.json": "06e43a74312518762d8df48a6a05b94c76aeb82029d2cbc1b80b847b436c935c",
+    "figures\\fig01.pdf": "6cf9ef52d36568dcaaa4429b8b40953ff412ac123a2166e8075de5c142caf776",
+    "figures\\fig01.png": "30e6afe4ce1c94f6ed0fd7de87602269979857d50829395c8fbb305b89dbfaff",
+    "figures\\fig01.svg": "5fe9625ff86920d630cfcbb0d569abb3f32218310a4c68291203a74c993290de",
+    "figures\\fig01.text-audit.json": "b8f45f5f78962b85b22fe3c0f486ee22be1c97d7a80b3565d11ad9f762cce3b2",
+    "figures\\fig01.tiff": "3604d40b96f0acfa9d952bb38e378ade766a89cfc6d765dc65a4f305d8b482f0",
+    "figures\\fig02.alignment.json": "3212d8401b90412cf9f13df0bd4d87e7f0462088172d15fc9398fa80495194f6",
+    "figures\\fig02.collision-audit.json": "ea12350e71f35b5a7a2fd34f1e7fb52ec4e9c0b58f988ffe88c41a3322d85226",
+    "figures\\fig02.pdf": "d2a279a665becffbe7462282013a68b14bcd12c94781ec9799d9259191b007ec",
+    "figures\\fig02.png": "61223a3796fbf8237a5cf8aa04967e5a1e361530379d103952e839db21e8a879",
+    "figures\\fig02.svg": "86aa022667b8955b216bea65b06374fb78dc7e9d2e25888150626eca9ba8b604",
+    "figures\\fig02.text-audit.json": "ade6516fc2808475afc846e9b317f30d0c29cfa65dafdc9cd99c61518ef508ea",
+    "figures\\fig02.tiff": "3d835ecb059fe6a4751ae29dac71af9aa3bcd4e28484147c7ab62ae3cd311c54",
+    "figures\\fig03.alignment.json": "b1ece82b6fc9a28609cdf02333edc4cd00fff06dd85c25844c25b11182e9a418",
+    "figures\\fig03.collision-audit.json": "fc274d4a66b3ce761d35039e88329521535c676ca459c464dee08f5f14159e61",
+    "figures\\fig03.pdf": "2f9dbf53ab924a10fed111595d5270107dde1ffb7aec9235c1d62cb440b98489",
+    "figures\\fig03.png": "85d2c4f17ba9ae03ca5d84d150b49d2bdb9c2093cce1919ad4f5713dab14b971",
+    "figures\\fig03.svg": "8fe0b7dc89dd8fbd4956fbde2af546d4a185a7e3ca2dd834fd3c4a37d1af6e32",
+    "figures\\fig03.text-audit.json": "db84e374687c65345f9a8efe53d61283c022da948ee1ede04d3cd854494d11b1",
+    "figures\\fig03.tiff": "84c3d3a5bddfb611bb58f49f16a59d0c91531a05df76dcdcc27361c52658396a",
+    "figures\\fig04.alignment.json": "6e3ab50367e0431b9cdc489af46820b7898007d38db70c0ba96179b5f139bc73",
+    "figures\\fig04.collision-audit.json": "40ff8a2c107d30ce175ae6fb120a2e79807580c2cafe61ab58b8b1caa6712240",
+    "figures\\fig04.pdf": "9db38fd815cd6a51e9a2f0ea4d21e646064cdbe0fa9240507dfb49ddf39e5148",
+    "figures\\fig04.png": "e9d10f10046e0edee836c5fbe252ac205ae8a19713a6aede8a805c4de0053204",
+    "figures\\fig04.svg": "6b9c17c3fa1a487caea1d71461edb668bc11d4086f20fea5867b9060e3e54943",
+    "figures\\fig04.text-audit.json": "3abc49900065af03b4578f612da9f51b5636d0ff7943b0bb44b333919082847c",
+    "figures\\fig04.tiff": "9e1baae23b1f1c3e2881d60954bd7d6bf4c0605bb53ee9bf4befed8d4314468f",
+    "figures\\fig05.alignment.json": "b74062e01701ce40af025c1df171d425483d4fd7cfd6112e8bcd222831be92aa",
+    "figures\\fig05.collision-audit.json": "c787dc989577948761d92a1f330890081dbf6911437a2d4b09a3ea50e78b1bbc",
+    "figures\\fig05.pdf": "51a4f50265a9982c91fe9f98cfd731e1f2d725dbffbfd79ead56ae75b36e88d3",
+    "figures\\fig05.png": "7f20b732e8010a8e51d609789e36b02ef8bb27cfc0c3dcc065a9497aa73dedf7",
+    "figures\\fig05.svg": "1bf6f949ed644e7601dd59b2210635c9e5b8794e8620154ad81bdf4a254349a3",
+    "figures\\fig05.text-audit.json": "89786875b7950a323c2acfbee6334205978e29a616c5561973f33e331d693df1",
+    "figures\\fig05.tiff": "71489f7731d7bd125b13b2140b083612ed6518eac534eb2670d31a2aa98f20be",
+    "figures\\fig06.alignment.json": "63c9083899a1415d40187e62551f77f78ca0e375b9549982011181150aae332b",
+    "figures\\fig06.collision-audit.json": "3e1511ccbf7da87c5b763840f787798abd0851a7aa787ce54098f3f55648e90b",
+    "figures\\fig06.pdf": "ce5676978b58e9b051e74489858b6157ef4011b65b99e7ddde45890e7a4f70af",
+    "figures\\fig06.png": "811a14460b8f8fb18997cd4d05c8aa02cd59b63058e3da38988480035e9b96b7",
+    "figures\\fig06.svg": "9ead5a9e198d6cb9f0caa17f1d579d749c78f150c2899de32d0203173fdd5e5e",
+    "figures\\fig06.text-audit.json": "25bd77ea7e7e7f8dbfbc52df1432a7a18888cea30f31ee04bad36f6a95de441c",
+    "figures\\fig06.tiff": "2b35e92480d6dbbe89f7baa9185fd8993f6fc272f7dfc6aa6aa3ca440822bfe6",
+    "finalize_bibliography.py": "6faeb43551fecb4134d38fe159eebf5e2200e2d01bf3756b66cb7c13b893ac6b",
+    "Full_manuscript_rq2_rq3_complete_v072.docx": "bb54c353ea98d15bd0d974c4d3ea48c6f207b38e48995d294092390f7e77463e",
+    "Full_manuscript_rq2_rq3_complete_v072.md": "59ba7a0512035731175b97cbb98b6d64d50294ea29d249b02ae1ad426cc8e6e1",
+    "outputs\\dc_minimal_validation_v072.csv": "6c7bd0b6563ba446edcde08526f5eff94f812be2c3b117269fb69f7ba5211642",
+    "outputs\\detuned_rating_sensitivity_v072.csv": "f5268b1d814d604630535acddbce20cf99e8a6c9190798bd004fd6e9d0b15818",
+    "outputs\\m2_cascade_robustness_v072.csv": "67d4b5597d69386510e8ee9efc3c3ae24adeba05694f2b562305576a88a22459",
+    "outputs\\opf_encoding_expand_v072.csv": "0056ddd6c49212a553ba08a6924c94debb72e6bbcef8fea8ac1a101bf312dc39",
+    "outputs\\OPF_EXPAND_V072_GATE.json": "85e32962012899806f9a5314b189da9f13c4b3424c2fc9ab44e378b203583e9d",
+    "outputs\\opf_six_encodings_v072.csv": "a7ad9c1e8d6ce9c3b22162cbf16644f5e797b19c79d977b2d44a6233fead4094",
+    "outputs\\RQ2_RECOUPLED_GATE.json": "a557b835f95ee6c5b212920ab548e1c34910d8c790caeae389a402731f540c26",
+    "outputs\\rq3_expansion_dc_snapshots_v072.json": "cfdabcd8e42e2f9ac4d8ee7e242b32dff01c74b698c489643e1c95c9a0c752d7",
+    "PRE_EDIT_STATE.json": "d3280f3fa1c1dd36ec7d3a2a19959237473668afbb4af5441795f38b9e1e278d",
+    "PROGRESS_REPORT_ZH.md": "d38c1cbf2badd0822f034dac8e3275f149f86990eb525aa16350487efb70f760",
+    "PROTOCOL.md": "6032fabb411e2d39a165ad5fd87ed0694a9bca0a2bcb04bcc59c0900046092da",
+    "PYTEST_RQ2_RECOUPLED.txt": "0be7428786bb2b1b4bbf8bc76b7fd4a048960e57c5df85a67f2660eade6729a7",
+    "render_fig04_update.py": "97d1a9e19dd612d1be440612646f5b06566f0741b3f4d5de0468a2669df44308",
+    "retire_dc_v07_from_manifest.py": "00599f8559be252ec061dc88e500127bbacc39de80e6c985c15cb23ce8b0fd53",
+    "retire_opf_v071_from_manifest.py": "3ccee850d7cd08910fd861097a04a20404d9ad7ee902a199260e1d9a8035d128",
+    "RQ_CONTRACT.json": "c0f1bcc90a7fca5c7705b92bf188b6a9d0d7cbbc047cf009dbecb42d9b7f4e89",
+    "run_opf_expand_v072.py": "b73fd4192701d552f9cda280aa1ece3b78910530a137e9feee4ec198fd65925b",
+    "run_recoupled_rq2.py": "8e218e643c140931bf0e7e8bc1d6fa54cd25942abc20ff1018edd0db8fbd5c2f",
+    "source_data\\fig02_capability_inventory.csv": "bc1f4225e5727cccdb00a722c00a989eb920bd2ed965403e1389b8a0b0d5f6d9",
+    "source_data\\fig03_all54_thermal_settings.csv": "acbde41ae196e86ce86ac0c25c2c5adf6c9a66ddebb3f7150e7754c132e5118d",
+    "source_data\\fig04_all68_recoupled_electrical_probes.csv": "7bcabdf92d0010f45ba2196229bc8e3473c316b0b3e511e8ad45fbcdaa06e3a9",
+    "source_data\\fig05_mechanism_path.csv": "7999756820d5735f962bfd601c4c8788721ee04ae7c31f0f0cceb392f4f16ec7",
+    "source_data\\fig05_uae_comparison.csv": "c3acbb18095a5a8f35d98807bf94d3df06bf77be840384218021a0c1d14d2dbc",
+    "source_data\\fig06_all18_numerical_enclosures.csv": "17b6659ef4e3fb8c92ccad610a85928dda25be64962c3280c9caa0ee73d84a23",
+    "switch_title_B.py": "28b9e422ddccfbe5b93f7ca20b2213f1196ac6fc02508a01794afe26e7373405",
+    "test_rq2_recoupled.py": "2d83b1db59dbae542101b0f7898b3285b3d1ad9c01efb91b18c3c5d9190dd2e7",
+    "update_manuscript.py": "9ec738c4f060ee06e5191945cc88bd9508093b5904ab371381c14c5fb684a223",
+    "update_title_in_docx.py": "9c0176266b237c309254fa0f7bc8870b7ff69d9f55653c7da5f8d4000dc5f03a",
+    "WORD_AUDIT.json": "a0d42324b499598962793f8776fc60412c1044b1d5446ae9cc34b89ecf05486a"
+  }
+}

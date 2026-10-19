@@ -1,0 +1,11 @@
+# Core skeleton: standard library only (no runtime dependency).
+#
+# Optional, for deeper assessment tiers / post-processing:
+#   pip install -e ".[grid]"   # tier B: DC-OPF + load shedding (pandapower>=3.5)
+#   pip install -e ".[opt]"    # numpy / matplotlib post-processing
+#   pip install -e ".[analysis]" # scipy scrambled-Sobol sensitivity
+#   pip install -e ".[test]"   # pytest
+#
+# Legacy note: the earlier version of this file listed pandapower/numpy/scipy as
+# comments and had no packaging metadata, so tier B/C/D could not be built at
+# all.  Dependency sets now live in pyproject.toml.

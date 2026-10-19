@@ -1,0 +1,719 @@
+{
+  "1": {
+    "doi": "10.1016/j.apenergy.2024.124440",
+    "authors": [
+      "Wang Y",
+      "Zhou Z",
+      "Betrie G",
+      "Zhang K",
+      "Yan E"
+    ],
+    "title": "Power generation-cooling water Nexus: Impacts of cooling water shortage on power system operation - a simulation case study in Illinois, U.S",
+    "year": 2025,
+    "volume": "377",
+    "issue": "",
+    "page": "124440"
+  },
+  "2": {
+    "doi": "10.1038/s41467-020-16012-2",
+    "authors": [
+      "Byers EA",
+      "Coxon G",
+      "Freer J",
+      "Hall JW"
+    ],
+    "title": "Drought and climate change impacts on cooling water shortages and electricity prices in Great Britain",
+    "year": 2020,
+    "volume": "11",
+    "issue": "1",
+    "page": "2239"
+  },
+  "3": {
+    "doi": "10.1038/nclimate1546",
+    "authors": [
+      "van Vliet MTH",
+      "Yearsley JR",
+      "Ludwig F",
+      "Vögele S",
+      "Lettenmaier DP",
+      "Kabat P"
+    ],
+    "title": "Vulnerability of US and European electricity supply to climate change",
+    "year": 2012,
+    "volume": "2",
+    "issue": "9",
+    "page": "676-681"
+  },
+  "4": {
+    "doi": "10.1016/j.apenergy.2015.10.071",
+    "authors": [
+      "DeNooyer TA",
+      "Peschel JM",
+      "Zhang Z",
+      "Stillwell AS"
+    ],
+    "title": "Integrating water resources and power generation: The energy–water nexus in Illinois",
+    "year": 2016,
+    "volume": "162",
+    "issue": "",
+    "page": "363-371"
+  },
+  "5": {
+    "doi": "10.1016/j.apenergy.2024.122977",
+    "authors": [
+      "Shuai H",
+      "Li F",
+      "Zhu J",
+      "Tingen II WJ",
+      "Mukherjee S"
+    ],
+    "title": "Modeling the impact of extreme summer drought on conventional and renewable generation capacity: Methods and a case study on the Eastern U.S. power system",
+    "year": 2024,
+    "volume": "363",
+    "issue": "",
+    "page": "122977"
+  },
+  "6": {
+    "doi": "10.1088/1748-9326/7/4/045802",
+    "authors": [
+      "Macknick J",
+      "Newmark R",
+      "Heath G",
+      "Hallett KC"
+    ],
+    "title": "Operational water consumption and withdrawal factors for electricity generating technologies: a review of existing literature",
+    "year": 2012,
+    "volume": "7",
+    "issue": "4",
+    "page": "045802"
+  },
+  "7": {
+    "doi": "10.1088/1748-9326/8/1/015031",
+    "authors": [
+      "Meldrum J",
+      "Nettles-Anderson S",
+      "Heath G",
+      "Macknick J"
+    ],
+    "title": "Life cycle water use for electricity generation: a review and harmonization of literature estimates",
+    "year": 2013,
+    "volume": "8",
+    "issue": "1",
+    "page": "015031"
+  },
+  "8": {
+    "doi": "10.1038/nclimate2903",
+    "authors": [
+      "van Vliet MTH",
+      "Wiberg D",
+      "Leduc S",
+      "Riahi K"
+    ],
+    "title": "Power-generation system vulnerability and adaptation to changes in climate and water resources",
+    "year": 2016,
+    "volume": "6",
+    "issue": "4",
+    "page": "375-380"
+  },
+  "9": {
+    "doi": "10.1038/nclimate3417",
+    "authors": [
+      "Miara A",
+      "Macknick JE",
+      "Vörösmarty CJ",
+      "Tidwell VC",
+      "Newmark R",
+      "Fekete B"
+    ],
+    "title": "Climate and water resource change impacts and adaptation potential for US power supply",
+    "year": 2017,
+    "volume": "7",
+    "issue": "11",
+    "page": "793-798"
+  },
+  "10": {
+    "doi": "10.1088/1748-9326/aa51d8",
+    "authors": [
+      "A M Peer R",
+      "T Sanders K"
+    ],
+    "title": "Characterizing cooling water source and usage patterns across US thermoelectric power plants: a comprehensive assessment of self-reported cooling water data",
+    "year": 2016,
+    "volume": "11",
+    "issue": "12",
+    "page": "124030"
+  },
+  "11": {
+    "doi": "10.1007/s10113-009-0104-x",
+    "authors": [
+      "Förster H",
+      "Lilliestam J"
+    ],
+    "title": "Modeling thermoelectric power generation in view of climate change",
+    "year": 2010,
+    "volume": "10",
+    "issue": "4",
+    "page": "327-338"
+  },
+  "12": {
+    "doi": "10.1088/1748-9326/8/3/035010",
+    "authors": [
+      "van Vliet MTH",
+      "Vögele S",
+      "Rübbelke D"
+    ],
+    "title": "Water constraints on European power supply under climate change: impacts on electricity prices",
+    "year": 2013,
+    "volume": "8",
+    "issue": "3",
+    "page": "035010"
+  },
+  "13": {
+    "doi": "10.1038/nenergy.2017.109",
+    "authors": [
+      "Liu L",
+      "Hejazi M",
+      "Li H",
+      "Forman B",
+      "Zhang X"
+    ],
+    "title": "Vulnerability of US thermoelectric power generation to climate change when incorporating state-level environmental regulations",
+    "year": 2017,
+    "volume": "2",
+    "issue": "8",
+    "page": "17109"
+  },
+  "14": {
+    "doi": "10.1038/nclimate2648",
+    "authors": [
+      "Bartos MD",
+      "Chester MV"
+    ],
+    "title": "Impacts of climate change on electric power supply in the Western United States",
+    "year": 2015,
+    "volume": "5",
+    "issue": "8",
+    "page": "748-752"
+  },
+  "15": {
+    "doi": "10.1016/j.apenergy.2017.08.141",
+    "authors": [
+      "Burillo D",
+      "Chester MV",
+      "Ruddell B",
+      "Johnson N"
+    ],
+    "title": "Electricity demand planning forecasts should consider climate non-stationarity to maintain reserve margins during heat waves",
+    "year": 2017,
+    "volume": "206",
+    "issue": "",
+    "page": "267-277"
+  },
+  "16": {
+    "doi": "10.1016/j.wen.2018.04.002",
+    "authors": [
+      "Pan SY",
+      "Snyder SW",
+      "Packman AI",
+      "Lin YJ",
+      "Chiang PC"
+    ],
+    "title": "Cooling water use in thermoelectric power generation and its associated challenges for addressing water-energy nexus",
+    "year": 2018,
+    "volume": "1",
+    "issue": "1",
+    "page": "26-41"
+  },
+  "17": {
+    "doi": "10.21423/twj.v1i1.1042",
+    "authors": [
+      "Stillwell AS",
+      "King CW",
+      "Webber ME"
+    ],
+    "title": "Desalination and Long-Haul Water Transfer as a Water Supply for Dallas, Texas: A Case Study of the Energy-Water Nexus in Texas",
+    "year": 2010,
+    "volume": "1",
+    "issue": "1",
+    "page": "33-41"
+  },
+  "19": {
+    "doi": "10.1115/1.3250794",
+    "authors": [
+      "Jaber H",
+      "Webb RL"
+    ],
+    "title": "Design of Cooling Towers by the Effectiveness-NTU Method",
+    "year": 1989,
+    "volume": "111",
+    "issue": "4",
+    "page": "837-843"
+  },
+  "20": {
+    "doi": "10.1115/1.1787504",
+    "authors": [
+      "Kloppers JC",
+      "Kro¨ger DG"
+    ],
+    "title": "Cooling Tower Performance Evaluation: Merkel, Poppe, and e-NTU Methods of Analysis",
+    "year": 2005,
+    "volume": "127",
+    "issue": "1",
+    "page": "1-7"
+  },
+  "21": {
+    "doi": "10.1016/j.ijheatmasstransfer.2004.09.004",
+    "authors": [
+      "Kloppers JC",
+      "Kröger DG"
+    ],
+    "title": "A critical investigation into the heat and mass transfer analysis of counterflow wet-cooling towers",
+    "year": 2005,
+    "volume": "48",
+    "issue": "3-4",
+    "page": "765-777"
+  },
+  "22": {
+    "doi": "10.1016/j.applthermaleng.2004.09.003",
+    "authors": [
+      "Kloppers JC",
+      "Kröger DG"
+    ],
+    "title": "Influence of temperature inversions on wet-cooling tower performance",
+    "year": 2005,
+    "volume": "25",
+    "issue": "8-9",
+    "page": "1325-1336"
+  },
+  "23": {
+    "doi": "10.1016/j.energy.2017.12.146",
+    "authors": [
+      "Wang C",
+      "Liu M",
+      "Zhao Y",
+      "Qiao Y",
+      "Chong D",
+      "Yan J"
+    ],
+    "title": "Dynamic modeling and operation optimization for the cold end system of thermal power plants during transient processes",
+    "year": 2018,
+    "volume": "145",
+    "issue": "",
+    "page": "734-746"
+  },
+  "24": {
+    "doi": "10.1016/j.energy.2019.06.030",
+    "authors": [
+      "Wu T",
+      "Ge Z",
+      "Yang L",
+      "Du X"
+    ],
+    "title": "Transient behavior of the cold end system in an indirect dry cooling thermal power plant under varying operating conditions",
+    "year": 2019,
+    "volume": "181",
+    "issue": "",
+    "page": "1202-1212"
+  },
+  "25": {
+    "doi": "10.1109/jsyst.2021.3122228",
+    "authors": [
+      "Arastou A",
+      "Ahmadi P",
+      "Karrari M"
+    ],
+    "title": "Modeling and Parameter Estimation of a Steam Power Plant Including Condenser Back-Pressure Uncertainty Using Operational Data",
+    "year": 2022,
+    "volume": "16",
+    "issue": "2",
+    "page": "2979-2988"
+  },
+  "26": {
+    "doi": "10.1016/j.applthermaleng.2011.08.014",
+    "authors": [
+      "Anozie AN",
+      "Odejobi OJ"
+    ],
+    "title": "The search for optimum condenser cooling water flow rate in a thermal power plant",
+    "year": 2011,
+    "volume": "31",
+    "issue": "17-18",
+    "page": "4083-4090"
+  },
+  "27": {
+    "doi": "10.1016/j.applthermaleng.2012.02.028",
+    "authors": [
+      "Zeng H",
+      "Meng J",
+      "Li Z"
+    ],
+    "title": "Numerical study of a power plant condenser tube arrangement",
+    "year": 2012,
+    "volume": "40",
+    "issue": "",
+    "page": "294-303"
+  },
+  "30": {
+    "doi": "10.1063/1.2737822",
+    "authors": [
+      "Dobson I",
+      "Carreras BA",
+      "Lynch VE",
+      "Newman DE"
+    ],
+    "title": "Complex systems analysis of series of blackouts: Cascading failure, critical points, and self-organization",
+    "year": 2007,
+    "volume": "17",
+    "issue": "2",
+    "page": "026103"
+  },
+  "31": {
+    "doi": "10.1109/TPWRS.2011.2177868",
+    "authors": [
+      "Vaiman",
+      "Bell",
+      "Chen",
+      "Chowdhury",
+      "Dobson",
+      "Hines",
+      "Papic",
+      "Miller",
+      "Zhang"
+    ],
+    "title": "Risk Assessment of Cascading Outages: Methodologies and Challenges",
+    "year": 2012,
+    "volume": "27",
+    "issue": "2",
+    "page": "631-641"
+  },
+  "32": {
+    "doi": "10.1109/TPWRS.2010.2051168",
+    "authors": [
+      "Zimmerman RD",
+      "Murillo-Sanchez CE",
+      "Thomas RJ"
+    ],
+    "title": "MATPOWER: Steady-State Operations, Planning, and Analysis Tools for Power Systems Research and Education",
+    "year": 2011,
+    "volume": "26",
+    "issue": "1",
+    "page": "12-19"
+  },
+  "33": {
+    "doi": "10.1109/TPWRS.2004.825981",
+    "authors": [],
+    "title": "Definition and Classification of Power System Stability IEEE/CIGRE Joint Task Force on Stability Terms and Definitions",
+    "year": 2004,
+    "volume": "19",
+    "issue": "3",
+    "page": "1387-1401"
+  },
+  "34": {
+    "doi": "10.1109/MIE.2016.2639825",
+    "authors": [
+      "Palensky P",
+      "Van Der Meer AA",
+      "Lopez CD",
+      "Joseph A",
+      "Pan K"
+    ],
+    "title": "Cosimulation of Intelligent Power Systems: Fundamentals, Software Architecture, Numerics, and Coupling",
+    "year": 2017,
+    "volume": "11",
+    "issue": "1",
+    "page": "34-50"
+  },
+  "35": {
+    "doi": "10.1109/MIE.2017.2671198",
+    "authors": [
+      "Palensky P",
+      "van der Meer A",
+      "Lopez C",
+      "Joseph A",
+      "Pan K"
+    ],
+    "title": "Applied Cosimulation of Intelligent Power Systems: Implementing Hybrid Simulators for Complex Power Systems",
+    "year": 2017,
+    "volume": "11",
+    "issue": "2",
+    "page": "6-21"
+  },
+  "36": {
+    "doi": "10.1109/JSYST.2022.3230092",
+    "authors": [
+      "Barbierato L",
+      "Pons E",
+      "Bompard EF",
+      "Rajkumar VS",
+      "Palensky P",
+      "Bottaccioli L",
+      "Patti E"
+    ],
+    "title": "Exploring Stability and Accuracy Limits of Distributed Real-Time Power System Simulations via System-of-Systems Cosimulation",
+    "year": 2023,
+    "volume": "17",
+    "issue": "2",
+    "page": "3354-3365"
+  },
+  "37": {
+    "doi": "10.1080/00401706.1991.10484804",
+    "authors": [
+      "Morris MD"
+    ],
+    "title": "Factorial Sampling Plans for Preliminary Computational Experiments",
+    "year": 1991,
+    "volume": "33",
+    "issue": "2",
+    "page": "161-174"
+  },
+  "38": {
+    "doi": "10.1016/j.envsoft.2006.10.004",
+    "authors": [
+      "Campolongo F",
+      "Cariboni J",
+      "Saltelli A"
+    ],
+    "title": "An effective screening design for sensitivity analysis of large models",
+    "year": 2007,
+    "volume": "22",
+    "issue": "10",
+    "page": "1509-1518"
+  },
+  "39": {
+    "doi": "10.1016/j.envsoft.2016.02.008",
+    "authors": [
+      "Pianosi F",
+      "Beven K",
+      "Freer J",
+      "Hall JW",
+      "Rougier J",
+      "Stephenson DB",
+      "Wagener T"
+    ],
+    "title": "Sensitivity analysis of environmental models: A systematic review with practical workflow",
+    "year": 2016,
+    "volume": "79",
+    "issue": "",
+    "page": "214-232"
+  },
+  "40": {
+    "doi": "10.1016/j.envsoft.2016.02.005",
+    "authors": [
+      "Sarrazin F",
+      "Pianosi F",
+      "Wagener T"
+    ],
+    "title": "Global Sensitivity Analysis of environmental models: Convergence and validation",
+    "year": 2016,
+    "volume": "79",
+    "issue": "",
+    "page": "135-152"
+  },
+  "41": {
+    "doi": "10.1016/0951-8320(95)00099-2",
+    "authors": [
+      "Saltelli A",
+      "Sobol' IM"
+    ],
+    "title": "About the use of rank transformation in sensitivity analysis of model output",
+    "year": 1995,
+    "volume": "50",
+    "issue": "3",
+    "page": "225-239"
+  },
+  "42": {
+    "doi": "10.1016/j.envsoft.2007.02.004",
+    "authors": [
+      "Refsgaard JC",
+      "van der Sluijs JP",
+      "Højberg AL",
+      "Vanrolleghem PA"
+    ],
+    "title": "Uncertainty in the environmental modelling process – A framework and guidance",
+    "year": 2007,
+    "volume": "22",
+    "issue": "11",
+    "page": "1543-1556"
+  },
+  "43": {
+    "doi": "10.1016/j.apenergy.2017.06.091",
+    "authors": [
+      "Lubega WN",
+      "Stillwell AS"
+    ],
+    "title": "Maintaining electric grid reliability under hydrologic drought and heat wave conditions",
+    "year": 2018,
+    "volume": "210",
+    "issue": "",
+    "page": "538-549"
+  },
+  "44": {
+    "doi": "10.1016/j.apenergy.2017.09.011",
+    "authors": [
+      "Gjorgiev B",
+      "Sansavini G"
+    ],
+    "title": "Electrical power generation under policy constrained water-energy nexus",
+    "year": 2018,
+    "volume": "210",
+    "issue": "",
+    "page": "568-579"
+  },
+  "45": {
+    "doi": "10.1038/nenergy.2017.114",
+    "authors": [
+      "Behrens P",
+      "van Vliet MTH",
+      "Nanninga T",
+      "Walsh B",
+      "Rodrigues JFD"
+    ],
+    "title": "Climate change and the vulnerability of electricity generation to water stress in the European Union",
+    "year": 2017,
+    "volume": "2",
+    "issue": "8",
+    "page": "17114"
+  },
+  "46": {
+    "doi": "10.1021/acsestwater.1c00450",
+    "authors": [
+      "Kumar Y",
+      "Hoesly R",
+      "Venkatesh A",
+      "Shuster E",
+      "Iyengar A"
+    ],
+    "title": "Effects of Short-Term Water Constraints on Electricity Dispatch: A Case Study of ERCOT and SPP Regions",
+    "year": 2022,
+    "volume": "2",
+    "issue": "5",
+    "page": "749-758"
+  },
+  "47": {
+    "doi": "10.3390/en17051210",
+    "authors": [
+      "Lu C",
+      "Yang J",
+      "Zhang Q"
+    ],
+    "title": "Pressure Transient Analysis on the Condenser of the HPR1000 Nuclear Power Unit",
+    "year": 2024,
+    "volume": "17",
+    "issue": "5",
+    "page": "1210"
+  },
+  "48": {
+    "doi": "10.1038/s41467-018-04287-5",
+    "authors": [
+      "Schäfer B",
+      "Witthaut D",
+      "Timme M",
+      "Latora V"
+    ],
+    "title": "Dynamically induced cascading failures in power grids",
+    "year": 2018,
+    "volume": "9",
+    "issue": "1",
+    "page": "1975"
+  },
+  "50": {
+    "doi": "10.1109/TNSE.2017.2763746",
+    "authors": [
+      "Cetinay H",
+      "Soltan S",
+      "Kuipers FA",
+      "Zussman G",
+      "Van Mieghem P"
+    ],
+    "title": "Comparing the Effects of Failures in Power Grids Under the AC and DC Power Flow Models",
+    "year": 2018,
+    "volume": "5",
+    "issue": "4",
+    "page": "301-312"
+  },
+  "51": {
+    "doi": "10.1109/IWIES.2013.6698576",
+    "authors": [
+      "Koc Y",
+      "Verma T",
+      "Araujo NAM",
+      "Warnier M"
+    ],
+    "title": "MATCASC: A tool to analyse cascading line outages in power grids",
+    "year": 2013,
+    "volume": "",
+    "issue": "",
+    "page": "143-148"
+  },
+  "52": {
+    "doi": "10.1109/PESGM.2012.6345378",
+    "authors": [
+      "Fitzmaurice R",
+      "Cotilla-Sanchez E",
+      "Hines P"
+    ],
+    "title": "Evaluating the impact of modeling assumptions for cascading failure simulation",
+    "year": 2012,
+    "volume": "",
+    "issue": "",
+    "page": "1-8"
+  },
+  "53": {
+    "doi": "10.1038/srep44499",
+    "authors": [
+      "Korkali M",
+      "Veneman JG",
+      "Tivnan BF",
+      "Bagrow JP",
+      "Hines PDH"
+    ],
+    "title": "Reducing Cascading Failure Risk by Increasing Infrastructure Network Interdependence",
+    "year": 2017,
+    "volume": "7",
+    "issue": "1",
+    "page": "44499"
+  },
+  "55": {
+    "doi": "10.1109/TPWRS.2014.2361735",
+    "authors": [
+      "Rezaei P",
+      "Hines PDH",
+      "Eppstein MJ"
+    ],
+    "title": "Estimating Cascading Failure Risk With Random Chemistry",
+    "year": 2015,
+    "volume": "30",
+    "issue": "5",
+    "page": "2726-2735"
+  },
+  "56": {
+    "doi": "10.1016/j.nucengdes.2024.113753",
+    "authors": [
+      "Seguin MO",
+      "Thuaud D",
+      "Couton D",
+      "Fenot M",
+      "Melot V",
+      "Plourde F"
+    ],
+    "title": "Experimental and numerical study of pressure increase in a condenser during loss of cooling",
+    "year": 2025,
+    "volume": "432",
+    "issue": "",
+    "page": "113753"
+  },
+  "57": {
+    "doi": "10.1016/S0017-9310(97)00018-5",
+    "authors": [
+      "Alcock JL",
+      "Webb DR",
+      "Botsch TW",
+      "Stephan K"
+    ],
+    "title": "An experimental investigation of the dynamic behaviour of a shell-and-tube condenser",
+    "year": 1997,
+    "volume": "40",
+    "issue": "17",
+    "page": "4129-4135"
+  }
+}

@@ -1,0 +1,5 @@
+# Reproduced DC-only OPF environment (optional; not needed by standard-library cascade core)
+pandapower==3.5.6
+numpy==2.3.5
+scipy==1.17.1
+pandas==2.3.3

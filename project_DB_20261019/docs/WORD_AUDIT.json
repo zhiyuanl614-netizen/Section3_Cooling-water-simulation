@@ -1,0 +1,53 @@
+{
+  "verdict": "PASS",
+  "scope": "source/OOXML/media-identity verification, not rendered page-layout proof",
+  "title": "Mechanistic modeling of wet-recirculating cooling contingencies for cascading failure assessment in power systems",
+  "source_sha256": "59ba7a0512035731175b97cbb98b6d64d50294ea29d249b02ae1ad426cc8e6e1",
+  "output_sha256": "bb54c353ea98d15bd0d974c4d3ea48c6f207b38e48995d294092390f7e77463e",
+  "editable_display_equations": 27,
+  "subsections": 19,
+  "tables": 11,
+  "embedded_figures": 6,
+  "figure_width_mm": 170,
+  "external_image_links": 0,
+  "conversion_warnings": [],
+  "images": [
+    {
+      "figure": 1,
+      "source": "figures/fig01.png",
+      "docx_media": "word/media/rId22.png",
+      "sha256": "30e6afe4ce1c94f6ed0fd7de87602269979857d50829395c8fbb305b89dbfaff"
+    },
+    {
+      "figure": 2,
+      "source": "figures/fig02.png",
+      "docx_media": "word/media/rId37.png",
+      "sha256": "61223a3796fbf8237a5cf8aa04967e5a1e361530379d103952e839db21e8a879"
+    },
+    {
+      "figure": 3,
+      "source": "figures/fig03.png",
+      "docx_media": "word/media/rId42.png",
+      "sha256": "85d2c4f17ba9ae03ca5d84d150b49d2bdb9c2093cce1919ad4f5713dab14b971"
+    },
+    {
+      "figure": 4,
+      "source": "figures/fig04.png",
+      "docx_media": "word/media/rId46.png",
+      "sha256": "e9d10f10046e0edee836c5fbe252ac205ae8a19713a6aede8a805c4de0053204"
+    },
+    {
+      "figure": 5,
+      "source": "figures/fig05.png",
+      "docx_media": "word/media/rId50.png",
+      "sha256": "7f20b732e8010a8e51d609789e36b02ef8bb27cfc0c3dcc065a9497aa73dedf7"
+    },
+    {
+      "figure": 6,
+      "source": "figures/fig06.png",
+      "docx_media": "word/media/rId53.png",
+      "sha256": "811a14460b8f8fb18997cd4d05c8aa02cd59b63058e3da38988480035e9b96b7"
+    }
+  ],
+  "final_page_layout_reviewed": false
+}

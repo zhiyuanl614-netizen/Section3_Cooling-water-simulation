@@ -1,0 +1,38 @@
+[
+  {
+    "figure": 1,
+    "title": "Finite-storage cold-end pathway and independent DC outlets.",
+    "caption": "a, Steam-side duty, condenser storage, water-side heat transfer, the lagged cooling inlet and basin/pump availability form the implemented thermal–inventory pathway. Arrows indicate model dependencies, not an equipment drawing or a complete steam-cycle balance. Protection acts on monitored states and the exported capability, not on the process temperature target. b, Available capability is an upper bound on actual injection and is passed to separate DC adequacy and S/H overload-propagation models. Adequacy integrates incremental unserved energy; cascade probes report terminal shedding, cuts and island states. Network redispatch is not fed back into the thermal reference. This is a conceptual schematic, with no measured observations or statistical sample.",
+    "image": "figures/fig01.png"
+  },
+  {
+    "figure": 2,
+    "title": "Inventory depletion and capability depend on the operating and blowdown conventions.",
+    "caption": "a, G33 capability for S1a (ride-down with blowdown isolation at detection), S1b (ride-down with maintained blowdown) and C1 (initial steam duty held, no SOP cap, blowdown isolation). b, Matching basin-level paths; the 2 m SOP-start line applies to the ride-down rule, not to C1, and 1 m is the low-level trip setting. Reported trajectories start at the healthy state. The exact event time and saved left-limit capability are inserted before a same-time drop to zero; zero post-trip capability is continued to 8 h, but basin dynamics are not extrapolated past the event. Events occur at 5.047222,3.855000 and 4.296389 h, respectively; the corresponding reference-operation capability integrals are 2738.433, 2098.716 and 2796.950 MWh (Table 2). These are deterministic scenarios, not replicates, and the integral is not actual grid-served energy. Curves use all retained reporting nodes from the accepted JSON outputs; no uncertainty band or smoothing fit is applied.",
+    "image": "figures/fig02.png"
+  },
+  {
+    "figure": 3,
+    "title": "Stable mechanism labels do not imply stable fast-event times.",
+    "caption": "a, Backpressure-protection time after complete pump-capacity loss. b, Low-level trip time after makeup interruption. Both panels retain all 18 combinations of six condenser design anchors (30, 60, 90, 180, 300, 600 s) and three tower lags (30, 300, 1800 s), with a logarithmic horizontal axis and separate seconds/hours vertical units. Line segments connect discrete tested settings as visual guides; they do not certify unsampled settings. Some tower-lag curves overlap at this scale. The S2 range is 42.43–572.50 s; the S1a range is 4.906944–5.064722 h. The additional 18 wet-bulb cases are all right-censored at 8 h and remain in the source-data table, not represented as infinite trip times. Settings are deterministic stress tests, not physical parameter-confidence intervals; there are no statistical replicates or error bars.",
+    "image": "figures/fig03.png"
+  },
+  {
+    "figure": 4,
+    "title": "Recoupled capability consequences depend on balancing and branch-removal rules.",
+    "caption": "a, At nominal ratings with simultaneous removal, terminal shed load across the four v0.7.2 recoupled non-healthy states—S3a dual 50% pump-loss derating (615.715/479.729 MW), G33 zero (0/508 MW), detuned makeup-interruption first trip at 4.273889 h (351.663/0 MW) and both wet units zero (0/0 MW at 5.047222 h)—increases monotonically from 44.556 to 632.0, 788.337 and 1140.0 MW under S, but varies non-monotonically from 0.0 to 1753.2, 1909.537 and 1087.230 MW under H. Connecting segments pair ordered capability states, not a continuous time-domain cascade. b, All 48 non-healthy combinations of capability state, S/H policy, simultaneous/sequential removal and rating multiplier (1.0, 0.9, 1.1); cells report removed branches [topological removal rounds]. Pale row bands group states and do not encode magnitude. Both panels use base demand (6254.23 MW); the 68-row source file (fig04_all68_recoupled_electrical_probes.csv) retains all healthy controls and duplicated baseline rows.",
+    "image": "figures/fig04.png"
+  },
+  {
+    "figure": 5,
+    "title": "Outage encoding changes incremental unserved energy in the matched adequacy comparison.",
+    "caption": "a, The same reference mechanism is compared with immediate loss and with 652 MW held until the mechanism trip at 5.047222 h. All trip jumps retain their left and right limits. b, Incremental UAE is 4634.437 MWh for immediate loss,1710.558 MWh for the trip-aligned control and 2170.680 MWh for the mechanism path, at demand multiplier 1.15 and an 8 h horizon. Continuous intervals use one-minute event-aware exchange; the full/zero controls are also checked analytically. The zero-duration jump is not integrated as a triangular area. The reference mechanism is 53.161947% below immediate loss. The path differences 2923.879171 and−460.122233 MWh are an algebraic reference-path decomposition, not unique causal contributions. UAE subtracts the matched healthy shed-load baseline; this figure addresses encoding within RQ3, not a validated omission-of-all-lags bias. Each bar is one deterministic calculation, with no confidence interval.",
+    "image": "figures/fig05.png"
+  },
+  {
+    "figure": 6,
+    "title": "The adequacy contrast persists across the tested thermal settings.",
+    "caption": "Each horizontal segment is the verified lower/upper numerical enclosure of UAE reduction for one of all 18 condenser-anchor/tower-lag pairs, relative to the same immediate-loss UAE of 4634.436991647404 MWh. End caps mark bounds, not statistical error bars; no central estimate is added. The dashed line is the independently evaluated 90/300 s mechanism reference (53.161947%). The outer reduction envelope is 52.025–53.306%; the largest individual UAE enclosure width is 1.382977 MWh. Bounds apply to the specified one-minute event-aware exchange integral, not model-form error, continuous-time physical error, confidence intervals or all intermediate parameter values. The original monotone-only precision failure is retained;12 independent LP certificate solves at existing positions tighten the bounds without exceeding the 96 additional unique-capacity-point budget. These numerical checks support, but do not replace, the original lag-omission question.",
+    "image": "figures/fig06.png"
+  }
+]

@@ -1,0 +1,12 @@
+# 当前版本发布集依赖清单（v0.7.2）
+#
+# 第一层（验证层）：audit_v072_release.py 仅需标准库 Python 3.10+，无第三方依赖。
+#
+# 第二层（科学计算复现，需完整工作树）：以下为版本锁定依赖。
+#   安装：pip install -r requirements.txt
+pandapower==3.5.6
+numpy==2.3.5
+scipy==1.17.1
+pandas==2.3.3
+# 图件重绘（render_fig04_update.py）另需：
+matplotlib>=3.8

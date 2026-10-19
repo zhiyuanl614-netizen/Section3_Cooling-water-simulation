@@ -1,0 +1,23 @@
+parameter,unit,reference_value,lower_bound,upper_bound,source_class,calibration_data,identifiability,calibration_status,generic_anchor_type,generic_anchor_note,sensitivity_treatment
+eta_net_design,-,0.38,0.3,0.48,heat-balance test / manufacturer,"fuel flow, gross/net MW, steam flow",medium,reference_template_not_site_measured,G3 文献典型值 + G1 热平衡约束,通用燃煤机组净效率代表值0.38；不对应某厂热平衡图,设计点闭合；效率包络敏感性
+partload_heatrate_penalty,-,0.25,0.0,0.8,part-load heat-rate test,"P, fuel/steam flow at 40-100% load",medium,reference_template_not_site_measured,G3 文献运行关系 + G4 场景参数,用二次惩罚表示低负荷热耗恶化；系数为通用场景值,单因素与策略场景；非全局Sobol核心参数
+condenser_waste_heat_frac,-,0.92,0.8,0.98,plant heat balance,"fuel, steam, feedwater and loss split",low-medium,reference_template_not_site_measured,G1 热平衡推导,凝汽器承担总废热分额，由热量分配闭合而非历史拟合,设计点范围检查
+qcw_design_m3s,m3/s,15.77,5.0,40.0,pump curve / flow element,CW flow at reference pump lineup,high,reference_template_not_site_measured,G1 热平衡推导,由Qc、冷却范围和水物性反算，不是独立经验输入,随容量缩放；设计点闭合
+approach_design_c,degC,5.55,2.5,8.0,tower design sheet / performance test,"Twb, tower outlet at design range",high,reference_template_not_site_measured,G2 标准/厂家设计范围 + G1 NTU反算,设计approach代表值，用于反算塔NTU,设计点闭合；塔性能敏感性
+ttd_design_c,degC,3.5,1.5,6.0,condenser design sheet / HEI test,"Tsat, CW outlet at design",high,reference_template_not_site_measured,G2 标准/厂家设计范围 + G1 UA反算,设计TTD代表值，用于反算凝汽器UA；运行TTD为输出,设计点闭合；凝汽器敏感性
+tower_characteristic_mult,-,1.0,0.6,1.5,tower performance test,"Twb, Tin, Tout, Qcw, fan state",high,reference_template_not_site_measured,G3 厂家/文献性能状态 + G4 状态倍率,以1.0为通用设计状态，0.85--1.15表示填料/风机状态范围,OAT + Morris + Sobol + Monte Carlo
+tower_ntu_exp,-,0.45,0.0,1.0,tower off-design test,varied CW/air flow points,medium,reference_template_not_site_measured,G3 文献变工况相关式,气水比对NTU影响指数采用降阶相关式代表值,单因素敏感性
+condenser_cleanliness,-,1.0,0.7,1.1,condenser performance test,"Qc, Qcw, Tin, Tout, pb",high,reference_template_not_site_measured,G3 文献/厂家性能状态 + G4 状态倍率,以1.0为清洁设计状态，低值表示结垢/堵塞,OAT + Morris + Sobol + Monte Carlo
+condenser_u_flow_exp,-,0.8,0.4,1.1,condenser off-design test,varied CW flow points,medium,reference_template_not_site_measured,G3 文献换热相关式,UA随循环水量变化的指数采用管内换热降阶关系,单因素敏感性
+condenser_air_partial_pressure_kpa,kPa,0.0,0.0,1.0,vacuum/air-removal assessment,"pb, Tsat, air-removal state",low,reference_template_not_site_measured,G4 真空系统场景参数,参考点取0以保持设计闭合；非零值表示漏气/抽真空不足,低可辨识场景检查
+evap_heat_fraction,-,0.82,0.65,0.95,tower heat/water balance,"makeup, blowdown, Qc, weather",medium,reference_template_not_site_measured,G1 热平衡 + G3 文献范围,蒸发潜热占排热比例，参考0.82并以约0.74--0.90作场景范围,OAT + Morris + Sobol + Monte Carlo
+drift_frac,-,5e-05,0.0,0.0005,tower manufacturer / water balance,circulating flow and total loss,low,reference_template_not_site_measured,G2/G3 厂家除水器典型量级,飘滴率采用现代除水器小量级代表值,固定低敏参数；水量闭合检查
+cycles_of_concentration,-,4.0,2.0,8.0,water chemistry,makeup/circulating conductivity or silica,high,reference_template_not_site_measured,G2 水质运行范围 + G1 盐平衡,CoC代表值4，运行范围由水质控制实践锚定,Morris + Sobol + Monte Carlo
+backpressure_sens_per_kpa,1/kPa,0.007,0.003,0.015,turbine manufacturer correction curve,P versus pb near reference,high,reference_template_not_site_measured,G3 文献/厂家背压修正曲线量级,0.7%/kPa为公开修正曲线范围的低中值，不是行业统一标准,机制与策略场景；背压输出检查
+backpressure_sens_high_per_kpa,1/kPa,0.014,0.005,0.03,turbine manufacturer correction curve,P versus pb at high backpressure,medium,reference_template_not_site_measured,G3 文献/厂家背压修正曲线量级,高背压段1.4%/kPa表示非线性加强的通用分段近似,机制与策略场景；不可反推单机曲线
+basin_area_m2,m2,1600.0,50.0,20000.0,civil drawing / level-volume table,level and inventory survey,high (geometry),reference_template_not_site_measured,G4 通用几何场景 + G1 容积关系,1600 m2为500 MW通用原型显式几何，不是某厂土建值,OAT + Morris + Sobol + Monte Carlo
+pump_npshr_design_m,m,8.0,3.0,20.0,pump manufacturer curve,NPSHr versus flow,high,reference_template_not_site_measured,G3 厂家原型曲线,NPSHr代表值8 m，量级由通用泵曲线锚定,Morris + Sobol；汽蚀机制检查
+pump_design_head_m,m,22.0,8.0,45.0,pump manufacturer curve,head versus flow,high,reference_template_not_site_measured,G3 厂家原型曲线 + G1 扬程闭合,设计扬程与静扬程共同闭合设计流量点,泵曲线场景；设计点闭合
+pump_static_lift_design_m,m,10.0,3.0,35.0,system elevation survey,basin/discharge elevations,high (geometry),reference_template_not_site_measured,G4 通用系统几何场景 + G1 扬程闭合,静扬程为通用原型高程差代表值，不是实测高程,泵曲线场景；水位机制检查
+tower_tau_s,s,300.0,30.0,1800.0,dynamic historian fit,step/load-change transients,medium,reference_template_not_site_measured,G3/G4 动态响应场景参数,塔热惯性时间常数通用代表值；无历史动态拟合,动态轨迹敏感性
+condenser_tau_s,s,90.0,10.0,600.0,dynamic historian fit,load/CW-flow transients,medium,reference_template_not_site_measured,G3/G4 动态响应场景参数,凝汽器热惯性时间常数通用代表值；无历史动态拟合,动态轨迹敏感性

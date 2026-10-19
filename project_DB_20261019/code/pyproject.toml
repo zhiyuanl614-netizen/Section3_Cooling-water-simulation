@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coal-cooling-ieee39"
+version = "0.7.2.dev0"
+description = "Literature- and standard-anchored generic wet-recirculating cold-end mechanistic model and synthetic IEEE 39 case"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []  # core cold-end + dynamics are standard-library only
+
+[project.optional-dependencies]
+opt = ["numpy>=1.24", "matplotlib>=3.7"]      # for optional post-processing
+analysis = ["scipy>=1.11"]                    # scrambled-Sobol global sensitivity
+grid = ["pandapower>=3.5"]                     # assessment tier B (DC-OPF + load shedding)
+test = ["pytest>=8.0"]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+packages = ["cooling", "scenarios", "grid"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = [
+    "ignore::DeprecationWarning:pandapower.*",
+]
