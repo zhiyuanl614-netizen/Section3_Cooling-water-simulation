@@ -1,0 +1,9 @@
+parameter,value,unit,basis
+ramp_frac_pmax_per_min,0.05,p.u.Pmax/min,uniform reference assumption; not site-measured
+redispatch_delay_s,10,s,reference control/dispatch delay; not site-measured
+makeup_capacity_factor,1.0,p.u.of full-load design makeup,normal makeup capacity assumed equal to rated-load design requirement
+makeup_response_tau_s,60,s,first-order reference supply response; not site-measured
+ufls_relay_delay_s,0.2,s,reference relay delay; not site-measured
+power_time_step_s,1,s,simulation setting
+frequency_time_step_s,0.01,s,simulation setting
+post_trip_cooling_horizon_h,24,h,reference simulation horizon to detect subsequent cooling-water protection trips; not site-measured
