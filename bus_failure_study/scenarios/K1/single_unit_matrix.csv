@@ -1,0 +1,7 @@
+scenario_id,scenario_class,initial_unit,initial_bus,makeup_interruptions,independence,status
+K1-G13,K1_single,G13,13,G13,independent,completed
+K1-G1,K1_single,G1,1,G1,independent,completed
+K1-G2,K1_single,G2,2,G2,independent,completed
+K1-G22,K1_single,G22,22,G22,independent,completed
+K1-G23,K1_single,G23,23,G23,independent,completed
+K1-G27,K1_single,G27,27,G27,independent,completed
