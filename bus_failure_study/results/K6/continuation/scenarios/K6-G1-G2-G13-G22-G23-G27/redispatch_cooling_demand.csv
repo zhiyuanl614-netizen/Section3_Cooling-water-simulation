@@ -1,0 +1,7 @@
+unit,bus,online_after_grid,pg_before_mw,pg_after_mw,delta_pg_mw,qg_before_mvar,qg_after_mvar,makeup_before_m3h,makeup_after_steady_m3h,delta_makeup_m3h,heat_before_mw_th,heat_after_steady_mw_th,makeup_capacity_m3h,minimum_basin_level_m,maximum_thermal_shortfall_mw
+G1,1,False,25.9738,0.0,-25.9738,-0.9985,0.0,71.744,0.0,-71.744,46.158,0.0,187.334,0.9999,17.2079
+G2,2,False,60.97,0.0,-60.97,31.999,0.0,151.272,0.0,-151.272,93.607,0.0,194.273,1.0999,0.0
+G13,13,False,37.0,0.0,-37.0,11.3529,0.0,94.661,0.0,-94.661,55.665,0.0,102.146,1.1999,0.0
+G22,22,False,21.59,0.0,-21.59,39.57,0.0,57.015,0.0,-57.015,36.627,0.0,117.177,0.9999,0.0
+G23,23,False,19.2,0.0,-19.2,7.951,0.0,55.262,0.0,-55.262,30.326,0.0,82.245,1.15,0.0
+G27,27,False,26.91,0.0,-26.91,10.5405,0.0,67.435,0.0,-67.435,44.642,0.0,124.966,0.9999,0.1621

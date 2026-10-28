@@ -1,0 +1,8 @@
+# bus_failure_study 运行依赖
+# 冻结版本以保证复现性；pypower 的 case 数据不在使用路径上
+# （算例从 data/grid/IEEE30/ 装配），但求解器仍依赖 pypower。
+numpy==2.3.5
+scipy==1.17.1
+pandas==2.2.3
+matplotlib==3.10.9
+pypower==5.1.21

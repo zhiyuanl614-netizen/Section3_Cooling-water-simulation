@@ -1,0 +1,2 @@
+scenario_id,scenario_class,initial_makeup_interruptions,description,status
+K0-BASE,baseline,none,IEEE30 no-fault base operating point and AC power-flow check,defined

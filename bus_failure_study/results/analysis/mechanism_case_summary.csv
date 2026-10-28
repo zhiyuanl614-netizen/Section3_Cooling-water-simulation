@@ -1,0 +1,4 @@
+﻿K,scenario_id,endpoint_type,H_hard_buses,total_shed_mw,censored_units,max_backpressure_rise_kpa,min_basin_margin_norm,min_thermal_cap_ratio,max_heat_reject_ratio,max_evaporation_ratio,max_makeup_required_ratio
+K2,K2-G1-G2,first_H_or_observed_window,23,164.3,,1.9358000000000004,0.0,0.9961574585875278,1.7926357134964979,1.7949821238160948,1.794982123816095
+K6,K6-G1-G2-G13-G22-G23-G27,first_H_or_observed_window,2,66.8696,G1;G27,4.2158999999999995,0.0,0.989246591403973,2.601595826499906,2.600559134774778,2.6005603295072026
+K6,K6-G1-G2-G13-G22-G23-G27,full_continuation,30,189.2,,4.474200000000001,0.0,0.9874524955426767,2.601595826499906,2.600559134774778,2.6005603295072026

@@ -1,0 +1,2 @@
+scenario_id,scenario_class,unit_a,unit_b,unit_c,unit_d,unit_e,unit_f,bus_a,bus_b,bus_c,bus_d,bus_e,bus_f,makeup_interruptions,timing_protocol,status
+K6-G1-G2-G13-G22-G23-G27,K6_six_unit,G1,G2,G13,G22,G23,G27,1,2,13,22,23,27,G1;G2;G13;G22;G23;G27,simultaneous_makeup_interruption_at_t0; coldend_determined_trip_times; unit_makeup_line_break,completed
