@@ -1,0 +1,16 @@
+{
+  "name": "publish",
+  "version": "1.0.0",
+  "main": "build_html.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "katex": "^0.19.1",
+    "markdown-it": "^15.0.3"
+  }
+}

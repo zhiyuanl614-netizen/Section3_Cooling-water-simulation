@@ -1,0 +1,2 @@
+case,status,n_bus,n_gen,n_branch,load_mw,generation_mw,loss_mw,f1_bus_count,load_shed_mw
+IEEE30,converged,30,6,41,189.200000,191.643803,2.443803,0,0.000000

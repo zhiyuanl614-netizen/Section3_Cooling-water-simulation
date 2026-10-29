@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="406.229118pt" height="190.986375pt" viewBox="0 0 406.229118 190.986375" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-29T02:21:46.328911</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 190.986375 
+L 406.229118 190.986375 
+L 406.229118 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 58.912724 69.60895 
+L 401.396723 69.60895 
+L 401.396723 53.755706 
+L 58.912724 53.755706 
+z
+" clip-path="url(#pf38abbef32)" style="fill: #f6f8fa"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 58.912724 101.315438 
+L 401.396723 101.315438 
+L 401.396723 85.462194 
+L 58.912724 85.462194 
+z
+" clip-path="url(#pf38abbef32)" style="fill: #f6f8fa"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 58.912724 133.021926 
+L 401.396723 133.021926 
+L 401.396723 117.168682 
+L 58.912724 117.168682 
+z
+" clip-path="url(#pf38abbef32)" style="fill: #f6f8fa"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 58.912724 37.902462 
+L 401.396723 37.902462 
+L 401.396723 19.935452 
+L 58.912724 19.935452 
+z
+" clip-path="url(#pf38abbef32)" style="fill: #e8edf2"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 58.912724 19.935452 
+L 401.396723 19.935452 
+" clip-path="url(#pf38abbef32)" style="fill: none; stroke: #000000; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 58.912724 37.902462 
+L 401.396723 37.902462 
+" clip-path="url(#pf38abbef32)" style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 58.912724 133.021926 
+L 401.396723 133.021926 
+" clip-path="url(#pf38abbef32)" style="fill: none; stroke: #000000; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #1a1a1a" x="72.035702" y="30.72616" transform="rotate(-0 72.035702 30.72616)">层</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #1a1a1a" x="87.194117" y="30.72616" transform="rotate(-0 87.194117 30.72616)">断水机组</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Noto Sans CJK JP'; fill: #1a1a1a" transform="translate(153.290758 26.851281)">跳闸数</text>
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Noto Sans CJK JP'; fill: #1a1a1a" transform="translate(155.190961 34.601039)">实/总</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #1a1a1a" x="187.779955" y="30.72616" transform="rotate(-0 187.779955 30.72616)">已跳闸</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #1a1a1a" x="242.058273" y="30.72616" transform="rotate(-0 242.058273 30.72616)">截尾</text>
+   </g>
+   <g id="text_6">
+    <!-- $H$ -->
+    <g style="fill: #1a1a1a" transform="translate(286.614036 30.72616)">
+     <text>
+      <tspan x="0" y="-0.625" style="font-style: oblique; font-size: 6.2px; font-family: 'DejaVu Sans'; fill: #1a1a1a">H</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Noto Sans CJK JP'; fill: #1a1a1a" transform="translate(326.482968 26.88216)">切负荷</text>
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Noto Sans CJK JP'; fill: #1a1a1a" transform="translate(329.43475 34.57016)">(MW)</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Noto Sans CJK JP'; fill: #1a1a1a" transform="translate(374.561286 26.88216)">观测窗口</text>
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Noto Sans CJK JP'; fill: #1a1a1a" transform="translate(390.706474 34.57016)">(h)</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="72.035702" y="47.643084" transform="rotate(-0 72.035702 47.643084)">K4</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="87.194117" y="47.643084" transform="rotate(-0 87.194117 47.643084)">1+13+22+23</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="162.590758" y="47.643084" transform="rotate(-0 162.590758 47.643084)">3/4</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="187.779955" y="47.643084" transform="rotate(-0 187.779955 47.643084)">13+22+23</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="242.058273" y="47.643084" transform="rotate(-0 242.058273 47.643084)">1</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="288.970036" y="47.643084" transform="rotate(-0 288.970036 47.643084)">2</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: end; fill: #222222" x="345.082968" y="47.643084" transform="rotate(-0 345.082968 47.643084)">39.6</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: end; fill: #222222" x="399.361286" y="47.643084" transform="rotate(-0 399.361286 47.643084)">3.3175</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="72.035702" y="63.496328" transform="rotate(-0 72.035702 63.496328)">K4</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="87.194117" y="63.496328" transform="rotate(-0 87.194117 63.496328)">13+22+23+27</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="162.590758" y="63.496328" transform="rotate(-0 162.590758 63.496328)">3/4</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="187.779955" y="63.496328" transform="rotate(-0 187.779955 63.496328)">13+22+23</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="242.058273" y="63.496328" transform="rotate(-0 242.058273 63.496328)">27</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="288.970036" y="63.496328" transform="rotate(-0 288.970036 63.496328)">2</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: end; fill: #222222" x="345.082968" y="63.496328" transform="rotate(-0 345.082968 63.496328)">39.6</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: end; fill: #222222" x="399.361286" y="63.496328" transform="rotate(-0 399.361286 63.496328)">3.3175</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="72.035702" y="79.349572" transform="rotate(-0 72.035702 79.349572)">K5</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="87.194117" y="79.349572" transform="rotate(-0 87.194117 79.349572)">1+13+22+23+27</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="162.590758" y="79.349572" transform="rotate(-0 162.590758 79.349572)">3/5</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="187.779955" y="79.349572" transform="rotate(-0 187.779955 79.349572)">13+22+23</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="242.058273" y="79.349572" transform="rotate(-0 242.058273 79.349572)">1+27</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="288.970036" y="79.349572" transform="rotate(-0 288.970036 79.349572)">2</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: end; fill: #222222" x="345.082968" y="79.349572" transform="rotate(-0 345.082968 79.349572)">39.6</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: end; fill: #222222" x="399.361286" y="79.349572" transform="rotate(-0 399.361286 79.349572)">3.3175</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="72.035702" y="95.202816" transform="rotate(-0 72.035702 95.202816)">K5</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="87.194117" y="95.202816" transform="rotate(-0 87.194117 95.202816)">1+2+13+22+23</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="162.590758" y="95.202816" transform="rotate(-0 162.590758 95.202816)">4/5</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="187.779955" y="95.202816" transform="rotate(-0 187.779955 95.202816)">13+2+22+23</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="242.058273" y="95.202816" transform="rotate(-0 242.058273 95.202816)">1</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="288.970036" y="95.202816" transform="rotate(-0 288.970036 95.202816)">2</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: end; fill: #222222" x="345.082968" y="95.202816" transform="rotate(-0 345.082968 95.202816)">66.9</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: end; fill: #222222" x="399.361286" y="95.202816" transform="rotate(-0 399.361286 95.202816)">3.0589</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="72.035702" y="111.05606" transform="rotate(-0 72.035702 111.05606)">K5</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="87.194117" y="111.05606" transform="rotate(-0 87.194117 111.05606)">2+13+22+23+27</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="162.590758" y="111.05606" transform="rotate(-0 162.590758 111.05606)">4/5</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="187.779955" y="111.05606" transform="rotate(-0 187.779955 111.05606)">13+2+22+23</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="242.058273" y="111.05606" transform="rotate(-0 242.058273 111.05606)">27</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="288.970036" y="111.05606" transform="rotate(-0 288.970036 111.05606)">2</text>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: end; fill: #222222" x="345.082968" y="111.05606" transform="rotate(-0 345.082968 111.05606)">66.9</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: end; fill: #222222" x="399.361286" y="111.05606" transform="rotate(-0 399.361286 111.05606)">3.0589</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="72.035702" y="126.909304" transform="rotate(-0 72.035702 126.909304)">K6</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="87.194117" y="126.909304" transform="rotate(-0 87.194117 126.909304)">1+2+13+22+23+27</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="162.590758" y="126.909304" transform="rotate(-0 162.590758 126.909304)">4/6</text>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="187.779955" y="126.909304" transform="rotate(-0 187.779955 126.909304)">13+2+22+23</text>
+   </g>
+   <g id="text_53">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="242.058273" y="126.909304" transform="rotate(-0 242.058273 126.909304)">1+27</text>
+   </g>
+   <g id="text_54">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="288.970036" y="126.909304" transform="rotate(-0 288.970036 126.909304)">2</text>
+   </g>
+   <g id="text_55">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: end; fill: #222222" x="345.082968" y="126.909304" transform="rotate(-0 345.082968 126.909304)">66.9</text>
+   </g>
+   <g id="text_56">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: end; fill: #222222" x="399.361286" y="126.909304" transform="rotate(-0 399.361286 126.909304)">3.0589</text>
+   </g>
+  </g>
+  <g id="text_57">
+   <!-- 机组编号省略 G 前缀，「层 + 断水机组」为情景唯一标识。截尾机组未观测到跳闸，不可按未跳闸统计；6 例 $H$ 相同源于相同停止判据。 -->
+   <g style="fill: #666666" transform="translate(1.44 188.172)">
+    <text>
+     <tspan x="0" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">机</tspan>
+     <tspan x="6" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">组</tspan>
+     <tspan x="12" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">编</tspan>
+     <tspan x="18" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">号</tspan>
+     <tspan x="24" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">省</tspan>
+     <tspan x="30" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">略</tspan>
+     <tspan x="36" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666"> </tspan>
+     <tspan x="37.343994" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">G</tspan>
+     <tspan x="41.477997" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666"> </tspan>
+     <tspan x="42.821991" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">前</tspan>
+     <tspan x="48.821991" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">缀</tspan>
+     <tspan x="54.821991" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">，</tspan>
+     <tspan x="60.821991" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">「</tspan>
+     <tspan x="66.821991" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">层</tspan>
+     <tspan x="72.821991" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666"> </tspan>
+     <tspan x="74.165985" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">+</tspan>
+     <tspan x="77.495987" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666"> </tspan>
+     <tspan x="78.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">断</tspan>
+     <tspan x="84.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">水</tspan>
+     <tspan x="90.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">机</tspan>
+     <tspan x="96.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">组</tspan>
+     <tspan x="102.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">」</tspan>
+     <tspan x="108.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">为</tspan>
+     <tspan x="114.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">情</tspan>
+     <tspan x="120.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">景</tspan>
+     <tspan x="126.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">唯</tspan>
+     <tspan x="132.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">一</tspan>
+     <tspan x="138.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">标</tspan>
+     <tspan x="144.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">识</tspan>
+     <tspan x="150.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">。</tspan>
+     <tspan x="156.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">截</tspan>
+     <tspan x="162.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">尾</tspan>
+     <tspan x="168.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">机</tspan>
+     <tspan x="174.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">组</tspan>
+     <tspan x="180.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">未</tspan>
+     <tspan x="186.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">观</tspan>
+     <tspan x="192.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">测</tspan>
+     <tspan x="198.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">到</tspan>
+     <tspan x="204.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">跳</tspan>
+     <tspan x="210.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">闸</tspan>
+     <tspan x="216.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">，</tspan>
+     <tspan x="222.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">不</tspan>
+     <tspan x="228.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">可</tspan>
+     <tspan x="234.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">按</tspan>
+     <tspan x="240.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">未</tspan>
+     <tspan x="246.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">跳</tspan>
+     <tspan x="252.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">闸</tspan>
+     <tspan x="258.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">统</tspan>
+     <tspan x="264.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">计</tspan>
+     <tspan x="270.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">；</tspan>
+     <tspan x="276.839981" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">6</tspan>
+     <tspan x="280.169983" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666"> </tspan>
+     <tspan x="281.513977" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">例</tspan>
+     <tspan x="287.513977" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666"> </tspan>
+     <tspan x="293.36969" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666"> </tspan>
+     <tspan x="294.713684" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">相</tspan>
+     <tspan x="300.713684" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">同</tspan>
+     <tspan x="306.713684" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">源</tspan>
+     <tspan x="312.713684" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">于</tspan>
+     <tspan x="318.713684" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">相</tspan>
+     <tspan x="324.713684" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">同</tspan>
+     <tspan x="330.713684" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">停</tspan>
+     <tspan x="336.713684" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">止</tspan>
+     <tspan x="342.713684" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">判</tspan>
+     <tspan x="348.713684" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">据</tspan>
+     <tspan x="354.713684" y="-0.53125" style="font-size: 6px; font-family: 'Noto Sans CJK JP'; fill: #666666">。</tspan>
+     <tspan x="288.857971" y="-0.53125" style="font-style: oblique; font-size: 6px; font-family: 'DejaVu Sans'; fill: #666666">H</tspan>
+    </text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf38abbef32">
+   <rect x="55.520329" y="1.44" width="349.268789" height="158.004"/>
+  </clipPath>
+ </defs>
+</svg>

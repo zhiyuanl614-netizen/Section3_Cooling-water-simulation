@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="331.995001pt" height="116.532pt" viewBox="0 0 331.995001 116.532" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-29T02:21:48.540651</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 116.532 
+L 331.995001 116.532 
+L 331.995001 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 4.828364 54.070792 
+L 327.166637 54.070792 
+L 327.166637 28.136779 
+L 4.828364 28.136779 
+z
+" clip-path="url(#pc6a27ecc75)" style="fill: #e8edf2"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 4.828364 28.136779 
+L 327.166637 28.136779 
+" clip-path="url(#pc6a27ecc75)" style="fill: none; stroke: #000000; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 4.828364 54.070792 
+L 327.166637 54.070792 
+" clip-path="url(#pc6a27ecc75)" style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 4.828364 76.953745 
+L 327.166637 76.953745 
+" clip-path="url(#pc6a27ecc75)" style="fill: none; stroke: #000000; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #1a1a1a" x="19.42692" y="42.910988" transform="rotate(-0 19.42692 42.910988)">层</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #1a1a1a" x="36.058495" y="42.910988" transform="rotate(-0 36.058495 42.910988)">断水机组</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #1a1a1a" x="115.346218" y="42.910988" transform="rotate(-0 115.346218 42.910988)">奇异警告</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #1a1a1a" x="169.560045" y="42.910988" transform="rotate(-0 169.560045 42.910988)">发散警告</text>
+   </g>
+   <g id="text_5">
+    <!-- $H$ -->
+    <g style="fill: #1a1a1a" transform="translate(208.546818 42.910988)">
+     <text>
+      <tspan x="0" y="-0.625" style="font-style: oblique; font-size: 6.2px; font-family: 'DejaVu Sans'; fill: #1a1a1a">H</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Noto Sans CJK JP'; fill: #1a1a1a" transform="translate(258.719486 39.066988)">切负荷</text>
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Noto Sans CJK JP'; fill: #1a1a1a" transform="translate(261.671267 46.754988)">(MW)</text>
+   </g>
+   <g id="text_7">
+    <!-- $f_{nadir}$ -->
+    <g style="fill: #1a1a1a" transform="translate(311.617618 39.066988)">
+     <text>
+      <tspan x="0" y="-0.4375" style="font-style: oblique; font-size: 6.2px; font-family: 'DejaVu Sans'; fill: #1a1a1a">f</tspan>
+      <tspan x="2.200317" y="0.546875" style="font-style: oblique; font-size: 4.34px; font-family: 'DejaVu Sans'; fill: #1a1a1a">n</tspan>
+      <tspan x="4.973145" y="0.546875" style="font-style: oblique; font-size: 4.34px; font-family: 'DejaVu Sans'; fill: #1a1a1a">a</tspan>
+      <tspan x="7.654114" y="0.546875" style="font-style: oblique; font-size: 4.34px; font-family: 'DejaVu Sans'; fill: #1a1a1a">d</tspan>
+      <tspan x="10.431213" y="0.546875" style="font-style: oblique; font-size: 4.34px; font-family: 'DejaVu Sans'; fill: #1a1a1a">i</tspan>
+      <tspan x="11.646729" y="0.546875" style="font-style: oblique; font-size: 4.34px; font-family: 'DejaVu Sans'; fill: #1a1a1a">r</tspan>
+     </text>
+    </g>
+    <text style="font-weight: 700; font-size: 6.2px; font-family: 'Noto Sans CJK JP'; fill: #1a1a1a" transform="translate(312.585399 46.754988)">(Hz)</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="19.42692" y="67.326268" transform="rotate(-0 19.42692 67.326268)">—</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="36.058495" y="67.326268" transform="rotate(-0 36.058495 67.326268)">全部 63 案均收敛</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="115.346218" y="67.326268" transform="rotate(-0 115.346218 67.326268)">0</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="169.560045" y="67.326268" transform="rotate(-0 169.560045 67.326268)">0</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="210.902818" y="67.326268" transform="rotate(-0 210.902818 67.326268)">—</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: end; fill: #222222" x="277.319486" y="67.326268" transform="rotate(-0 277.319486 67.326268)">—</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: end; fill: #222222" x="325.133618" y="67.326268" transform="rotate(-0 325.133618 67.326268)">—</text>
+   </g>
+  </g>
+  <g id="text_15">
+   <text style="font-weight: 700; font-size: 7px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #1a1a1a" x="3.085575" y="9.494603" transform="rotate(-0 3.085575 9.494603)">未收敛情景（0 / 63）</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pc6a27ecc75">
+   <rect x="1.44" y="1.44" width="329.115001" height="113.652"/>
+  </clipPath>
+ </defs>
+</svg>

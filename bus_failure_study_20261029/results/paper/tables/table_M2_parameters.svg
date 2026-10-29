@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="215.02765pt" height="194.148pt" viewBox="0 0 215.02765 194.148" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-29T02:21:46.921155</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 194.148 
+L 215.02765 194.148 
+L 215.02765 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 4.685561 70.168613 
+L 210.34209 70.168613 
+L 210.34209 54.185214 
+L 4.685561 54.185214 
+z
+" clip-path="url(#p8c1f9f55b5)" style="fill: #f6f8fa"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 4.685561 102.135409 
+L 210.34209 102.135409 
+L 210.34209 86.152011 
+L 4.685561 86.152011 
+z
+" clip-path="url(#p8c1f9f55b5)" style="fill: #f6f8fa"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 4.685561 134.102206 
+L 210.34209 134.102206 
+L 210.34209 118.118808 
+L 4.685561 118.118808 
+z
+" clip-path="url(#p8c1f9f55b5)" style="fill: #f6f8fa"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 4.685561 166.069003 
+L 210.34209 166.069003 
+L 210.34209 150.085604 
+L 4.685561 150.085604 
+z
+" clip-path="url(#p8c1f9f55b5)" style="fill: #f6f8fa"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 4.685561 38.201816 
+L 210.34209 38.201816 
+L 210.34209 20.087298 
+L 4.685561 20.087298 
+z
+" clip-path="url(#p8c1f9f55b5)" style="fill: #e8edf2"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 4.685561 20.087298 
+L 210.34209 20.087298 
+" clip-path="url(#p8c1f9f55b5)" style="fill: none; stroke: #000000; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 4.685561 38.201816 
+L 210.34209 38.201816 
+" clip-path="url(#p8c1f9f55b5)" style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 4.685561 166.069003 
+L 210.34209 166.069003 
+" clip-path="url(#p8c1f9f55b5)" style="fill: none; stroke: #000000; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 6.3px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #1a1a1a" x="6.632897" y="30.980909" transform="rotate(-0 6.632897 30.980909)">参数</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 6.3px; font-family: 'Noto Sans CJK JP'; text-anchor: end; fill: #1a1a1a" x="104.536814" y="30.980909" transform="rotate(-0 104.536814 30.980909)">取值</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 6.3px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #1a1a1a" x="108.431486" y="30.980909" transform="rotate(-0 108.431486 30.980909)">单位</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 6.3px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #1a1a1a" x="184.377605" y="30.980909" transform="rotate(-0 184.377605 30.980909)">来源类别</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="6.632897" y="48.007515" transform="rotate(-0 6.632897 48.007515)">机组爬坡率</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: end; fill: #222222" x="104.536814" y="48.007515" transform="rotate(-0 104.536814 48.007515)">0.05</text>
+   </g>
+   <g id="text_7">
+    <!-- $P_{max}$/min -->
+    <g style="fill: #222222" transform="translate(108.431486 48.007515)">
+     <text>
+      <tspan x="0" y="-0.546875" style="font-style: oblique; font-size: 6.4px; font-family: 'DejaVu Sans'; fill: #222222">P</tspan>
+      <tspan x="3.844299" y="0.4375" style="font-style: oblique; font-size: 4.48px; font-family: 'DejaVu Sans'; fill: #222222">m</tspan>
+      <tspan x="8.191315" y="0.4375" style="font-style: oblique; font-size: 4.48px; font-family: 'DejaVu Sans'; fill: #222222">a</tspan>
+      <tspan x="10.925903" y="0.4375" style="font-style: oblique; font-size: 4.48px; font-family: 'DejaVu Sans'; fill: #222222">x</tspan>
+      <tspan x="13.730859" y="-0.546875" style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; fill: #222222">/</tspan>
+      <tspan x="16.235986" y="-0.546875" style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; fill: #222222">m</tspan>
+      <tspan x="22.153711" y="-0.546875" style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; fill: #222222">i</tspan>
+      <tspan x="23.911127" y="-0.546875" style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; fill: #222222">n</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="184.377605" y="48.007515" transform="rotate(-0 184.377605 48.007515)">参考假设</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="6.632897" y="63.990914" transform="rotate(-0 6.632897 63.990914)">再调度延迟</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: end; fill: #222222" x="104.536814" y="63.990914" transform="rotate(-0 104.536814 63.990914)">10</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="108.431486" y="63.990914" transform="rotate(-0 108.431486 63.990914)">s</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="184.377605" y="63.990914" transform="rotate(-0 184.377605 63.990914)">参考假设</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="6.632897" y="79.974312" transform="rotate(-0 6.632897 79.974312)">补水能力系数</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: end; fill: #222222" x="104.536814" y="79.974312" transform="rotate(-0 104.536814 79.974312)">1</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="108.431486" y="80.118312" transform="rotate(-0 108.431486 80.118312)">p.u. 满载设计</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="184.377605" y="79.974312" transform="rotate(-0 184.377605 79.974312)">参考假设</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="6.632897" y="95.95771" transform="rotate(-0 6.632897 95.95771)">补水响应时间常数</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: end; fill: #222222" x="104.536814" y="95.95771" transform="rotate(-0 104.536814 95.95771)">60</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="108.431486" y="95.95771" transform="rotate(-0 108.431486 95.95771)">s</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="184.377605" y="95.95771" transform="rotate(-0 184.377605 95.95771)">参考假设</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="6.632897" y="111.941109" transform="rotate(-0 6.632897 111.941109)">低频减载继电器延迟</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: end; fill: #222222" x="104.536814" y="111.941109" transform="rotate(-0 104.536814 111.941109)">0.2</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="108.431486" y="111.941109" transform="rotate(-0 108.431486 111.941109)">s</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="184.377605" y="111.941109" transform="rotate(-0 184.377605 111.941109)">参考假设</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="6.632897" y="127.924507" transform="rotate(-0 6.632897 127.924507)">潮流计算步长</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: end; fill: #222222" x="104.536814" y="127.924507" transform="rotate(-0 104.536814 127.924507)">1</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="108.431486" y="127.924507" transform="rotate(-0 108.431486 127.924507)">s</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="184.377605" y="127.924507" transform="rotate(-0 184.377605 127.924507)">研究设置</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="6.632897" y="143.907905" transform="rotate(-0 6.632897 143.907905)">频率计算步长</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: end; fill: #222222" x="104.536814" y="143.907905" transform="rotate(-0 104.536814 143.907905)">0.01</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="108.431486" y="143.907905" transform="rotate(-0 108.431486 143.907905)">s</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="184.377605" y="143.907905" transform="rotate(-0 184.377605 143.907905)">研究设置</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="6.632897" y="159.891304" transform="rotate(-0 6.632897 159.891304)">跳闸后冷端观测时窗</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: end; fill: #222222" x="104.536814" y="159.891304" transform="rotate(-0 104.536814 159.891304)">24</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="108.431486" y="159.891304" transform="rotate(-0 108.431486 159.891304)">h</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="184.377605" y="159.891304" transform="rotate(-0 184.377605 159.891304)">参考假设</text>
+   </g>
+  </g>
+  <g id="text_37">
+   <text style="font-weight: 700; font-size: 7px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #1a1a1a" x="2.500738" y="9.894801" transform="rotate(-0 2.500738 9.894801)">耦合侧模型参数与来源（无现场实测值）</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8c1f9f55b5">
+   <rect x="1.44" y="1.44" width="212.14765" height="191.268"/>
+  </clipPath>
+ </defs>
+</svg>

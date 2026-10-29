@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="318.178569pt" height="210.642375pt" viewBox="0 0 318.178569 210.642375" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-29T02:21:47.610356</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 210.642375 
+L 318.178569 210.642375 
+L 318.178569 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 47.088759 69.914298 
+L 313.364478 69.914298 
+L 313.364478 53.990043 
+L 47.088759 53.990043 
+z
+" clip-path="url(#p4dc7e11a87)" style="fill: #f6f8fa"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 47.088759 101.762809 
+L 313.364478 101.762809 
+L 313.364478 85.838553 
+L 47.088759 85.838553 
+z
+" clip-path="url(#p4dc7e11a87)" style="fill: #f6f8fa"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 47.088759 133.611319 
+L 313.364478 133.611319 
+L 313.364478 117.687064 
+L 47.088759 117.687064 
+z
+" clip-path="url(#p4dc7e11a87)" style="fill: #f6f8fa"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 47.088759 38.065787 
+L 313.364478 38.065787 
+L 313.364478 20.018298 
+L 47.088759 20.018298 
+z
+" clip-path="url(#p4dc7e11a87)" style="fill: #e8edf2"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 47.088759 20.018298 
+L 313.364478 20.018298 
+" clip-path="url(#p4dc7e11a87)" style="fill: none; stroke: #000000; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 47.088759 38.065787 
+L 313.364478 38.065787 
+" clip-path="url(#p4dc7e11a87)" style="fill: none; stroke: #000000; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 47.088759 149.535574 
+L 313.364478 149.535574 
+" clip-path="url(#p4dc7e11a87)" style="fill: none; stroke: #000000; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 6.3px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #1a1a1a" x="72.255708" y="30.878394" transform="rotate(-0 72.255708 30.878394)">层</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 6.3px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #1a1a1a" x="124.415384" y="30.878394" transform="rotate(-0 124.415384 30.878394)">机组数</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 6.3px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #1a1a1a" x="178.400839" y="30.878394" transform="rotate(-0 178.400839 30.878394)">组合数</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 6.3px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #1a1a1a" x="232.386295" y="30.878394" transform="rotate(-0 232.386295 30.878394)">枚举式</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 6.3px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #1a1a1a" x="261.403477" y="30.878394" transform="rotate(-0 261.403477 30.878394)">说明</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="72.255708" y="47.841915" transform="rotate(-0 72.255708 47.841915)">K1</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="124.415384" y="47.841915" transform="rotate(-0 124.415384 47.841915)">1</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="178.400839" y="47.841915" transform="rotate(-0 178.400839 47.841915)">6</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="232.386295" y="47.841915" transform="rotate(-0 232.386295 47.841915)">C(6, 1) = 6</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="261.403477" y="47.841915" transform="rotate(-0 261.403477 47.841915)">单机组独立断水</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="72.255708" y="63.76617" transform="rotate(-0 72.255708 63.76617)">K2</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="124.415384" y="63.76617" transform="rotate(-0 124.415384 63.76617)">2</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="178.400839" y="63.76617" transform="rotate(-0 178.400839 63.76617)">15</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="232.386295" y="63.76617" transform="rotate(-0 232.386295 63.76617)">C(6, 2) = 15</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="261.403477" y="63.76617" transform="rotate(-0 261.403477 63.76617)">两机组合</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="72.255708" y="79.690426" transform="rotate(-0 72.255708 79.690426)">K3</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="124.415384" y="79.690426" transform="rotate(-0 124.415384 79.690426)">3</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="178.400839" y="79.690426" transform="rotate(-0 178.400839 79.690426)">20</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="232.386295" y="79.690426" transform="rotate(-0 232.386295 79.690426)">C(6, 3) = 20</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="261.403477" y="79.690426" transform="rotate(-0 261.403477 79.690426)">三机组合</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="72.255708" y="95.614681" transform="rotate(-0 72.255708 95.614681)">K4</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="124.415384" y="95.614681" transform="rotate(-0 124.415384 95.614681)">4</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="178.400839" y="95.614681" transform="rotate(-0 178.400839 95.614681)">15</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="232.386295" y="95.614681" transform="rotate(-0 232.386295 95.614681)">C(6, 4) = 15</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="261.403477" y="95.614681" transform="rotate(-0 261.403477 95.614681)">四机组合</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="72.255708" y="111.538936" transform="rotate(-0 72.255708 111.538936)">K5</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="124.415384" y="111.538936" transform="rotate(-0 124.415384 111.538936)">5</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="178.400839" y="111.538936" transform="rotate(-0 178.400839 111.538936)">6</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="232.386295" y="111.538936" transform="rotate(-0 232.386295 111.538936)">C(6, 5) = 6</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="261.403477" y="111.538936" transform="rotate(-0 261.403477 111.538936)">五机组合</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="72.255708" y="127.463191" transform="rotate(-0 72.255708 127.463191)">K6</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="124.415384" y="127.463191" transform="rotate(-0 124.415384 127.463191)">6</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="178.400839" y="127.463191" transform="rotate(-0 178.400839 127.463191)">1</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="232.386295" y="127.463191" transform="rotate(-0 232.386295 127.463191)">C(6, 6) = 1</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="261.403477" y="127.463191" transform="rotate(-0 261.403477 127.463191)">六机全断</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="72.255708" y="143.387447" transform="rotate(-0 72.255708 143.387447)">合计</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="124.415384" y="143.387447" transform="rotate(-0 124.415384 143.387447)">1–6</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: middle; fill: #222222" x="178.400839" y="143.387447" transform="rotate(-0 178.400839 143.387447)">63</text>
+   </g>
+   <g id="text_39">
+    <!-- $\sum\binom{6}{n}$ = 63 -->
+    <g style="fill: #222222" transform="translate(217.890295 143.941447)">
+     <text>
+      <tspan x="0" y="-0.890625" style="font-size: 6.4px; font-family: 'DejaVu Sans Display'; fill: #222222">∑</tspan>
+      <tspan x="6.073059" y="-0.198437" style="font-size: 6.181695px; font-family: 'STIXSizeOneSym'; fill: #222222">(</tspan>
+      <tspan x="12.578738" y="-0.198437" style="font-size: 6.181695px; font-family: 'STIXSizeOneSym'; fill: #222222">)</tspan>
+      <tspan x="8.93956" y="-3.220312" style="font-size: 4.48px; font-family: 'DejaVu Sans'; fill: #222222">6</tspan>
+      <tspan x="8.93956" y="0.785938" style="font-style: oblique; font-size: 4.48px; font-family: 'DejaVu Sans'; fill: #222222">n</tspan>
+      <tspan x="15.445239" y="-0.890625" style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; fill: #222222"> </tspan>
+      <tspan x="16.876727" y="-0.890625" style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; fill: #222222">=</tspan>
+      <tspan x="20.423526" y="-0.890625" style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; fill: #222222"> </tspan>
+      <tspan x="21.855014" y="-0.890625" style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; fill: #222222">6</tspan>
+      <tspan x="25.401813" y="-0.890625" style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; fill: #222222">3</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 6.4px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #222222" x="261.403477" y="143.387447" transform="rotate(-0 261.403477 143.387447)">全枚举，无遗漏</text>
+   </g>
+  </g>
+  <g id="text_41">
+   <text style="font-weight: 700; font-size: 7px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #1a1a1a" x="45.079788" y="9.645321" transform="rotate(-0 45.079788 9.645321)">情景枚举协议（t0 并发断水）</text>
+  </g>
+  <g id="text_42">
+   <text style="font-size: 6px; font-family: 'Noto Sans CJK JP'; text-anchor: start; fill: #666666" x="1.44" y="207.828" transform="rotate(-0 1.44 207.828)">同一地区共用水源，但各机组补水管线独立破裂；t0 同时发生，非共因断供。</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p4dc7e11a87">
+   <rect x="43.714668" y="1.44" width="273.0239" height="174.636"/>
+  </clipPath>
+ </defs>
+</svg>
